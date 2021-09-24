@@ -1,0 +1,724 @@
+{
+    "": {
+        "institution": "",
+        "url": "",
+        "description": ""
+    },
+    "Intro to Computer Science": {
+        "description": "This course provides an introduction to computer science for students with little to no programming background. Broadly surveys a number of CS topic areas, covers several fundamental programming concepts, and introduces several programming languages. Students will leave with a general understanding of the field and enough knowledge to write simple programs.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Harvard",
+                "url": "https://cs50.harvard.edu/",
+                "description": "Harvard's introductory computer science course, CS50, is perhaps the greatest course that has ever been made. Extremely clear and well produced, it contains complete materials accessible either through the course website, or their edX page."
+            },
+            {
+                "index": 1,
+                "institution": "Berkeley",
+                "url": "https://cs10.org/",
+                "description": "Berkeley's intro to cs course. Similar in content to Harvard's CS50, but not as well produced."
+            }
+        ]
+    },
+    "Programming I": {
+        "description": "In Programming I, students will learn how to think algorithmically, how to write small programs, and how to approach problem solving with computation. The goal is to equip students with some programming fundamentals and develop a strong foundation. By the end of the course you should feel comfortable problem solving with code, implementing simple algorithms, and starting to use more abstract programming techniques such as recursion and object oriented programming.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://sicp-s1.mit.edu/",
+                "description": "This is MIT's intro CS course that is taught in Python. Python is a good choice because it is used in several other places throughout the curriculum. The current course website should have up-to-date assigments, but past materials and lectures can be found on youtube and MIT's OCW. Make sure you complete both 6.0001 and 6.0002, which together form a full semester long course. The reason they are split in two is so students who are already familiar with Python can skip part 1 and go straight to part 2."
+            },
+            {
+                "index": 1,
+                "institution": "University of Illinois",
+                "url": "https://www.cs124.org/",
+                "description": "This is a great introductory course that uses Kotlin, a language that is becoming popular for Android development. This is an alternative to MIT's Python introduction and offers similar amounts of programming practice."
+            }
+        ]
+    },
+    "Programming II": {
+        "description": "Whereas students wrote mainly stand alone scripts in Programming I, in Programming II they will be writing more involved programs. This will give them the opportunity to practice reasoning about and composing more complex pieces of software. Additionally, Programming II requires greater use of algorithms and begins focusing on writing performant code. Substantial coding assignments allow for ample opportunity to practice programming and provide a sturdy foundation for students to start building large, complex programs in future courses.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://py.mit.edu/",
+                "description": "This MIT course is not available on OCW, but you can follow along with the course website. While you can't watch lectures and recitations, it doesn't matter too much because the main value is in the labs which are available. Expect a heavy workload, as each weekly lab will take around 10 hours to complete. If you cannot access the course materials, aim to make about 12 non-trivial Python projects. Examples from the course include minesweeper, google maps pathfinding with heuristics, network pathfinding without heuristics, image processing, audio processing, SAT solving, autocorrect, symbolic algebra and calculus, a LISP interpreter, among others. The key is to not rely on powerful libraries but to implement much of the logic underpinning these projects yourself."
+            }
+        ]
+    },
+    "SICP": {
+        "description": "Structure and Interpretation of Computer Programs was MIT's famous introductory computer science course taught from 1980 to around 2006. It was based on the legendary text, 'Structure and Interpretation of Computer Programs' (SICP), considered by some to be the greatest computer science text ever written. The course is taught with LISP. This course will be interesting to students who want to build programs from scratch and learn to better understand how code works from the ground up rather than relying on libraries and magical code.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/",
+                "description": "This is MIT's SICP course from 2006. It is a fairly complete collection of materials. The course was abandoned in 2007 when MIT reorganized their curriculum around Python, but SICP continues to be taught at many universities throughout the world."
+            }
+        ]
+    },
+    "Computational Thinking with Julia": {
+        "description": "This course provides an introduction to Julia, a new and exciting programming langauge. The course is aimed at scientific computing, so you will be doing stuff that you could probably do in Python, only you will be using Julia. The reason that Julia is nice is that it is pretty similar to Python in functionality, generality, and lightness, except it is as fast as C. This makes it straightforward to write performant code that is faster than Go, Javascript, Python, and especially R and Matlab.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://computationalthinking.mit.edu/",
+                "description": "This course, delivered to MIT students but made available to the public, was created in a collaboration between Grant Sanderson of the YouTube channel, 3b1b, and MIT. It is a course of exceptional quality and clarity. The level of depth provided by the course is somewhere between Programming I and Programming II, but it focuses on real world, scientific applications such as image analysis, particle dynamics, ray tracing, pandemic modeling, and climate modeling."
+            }
+        ]
+    },
+    "Algorithms I": {
+        "description": "This course provides an introduction to algorithms. Students will learn a number of basic algorithms and data structures involved in sorting, searching, hashing, number theory, pathfinding, and dynamic programming, among others. The idea is to get comfortable understanding and implementing basic, concrete algorithms before moving onto more sophisticated and/or theoretical algorithms in Algorithms II. Some universities cover parallel algos in Algorithms I while others cover it in Algorithms II. Whatever course you take, make sure you cover parallelism at some point because most modern, performant software takes advantage of parallelism.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2020/",
+                "description": "This is MIT's new algorithms course from 2020. OCW has full materials."
+            }
+        ]
+    },
+    "Algorithms II": {
+        "description": "The second course in the algorithms sequence transitions students from concrete implementation details to more abstract analysis. Students will work with more sophisticated algorithms, analyze algorithms in greater detail, prove the correctness of their algorithms, and spend more time thinking about performance.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-design-and-analysis-of-algorithms-spring-2015/syllabus/",
+                "description": "This is MIT's second course in algorithms and the starting point for more theory heavy courses. While algorithms is the central topic of the course, there are no actual coding assignments. Instead, students will do pencil and paper assignments."
+            }
+        ]
+    },
+    "Programming for the Puzzled": {
+        "description": "This small course uses Python to algorithmically solve puzzles. It is a fun way to practice Python and introduce students to solving real world problems with computation. It basically takes the material learned in Programming I and applies it to a recreational domain.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s095-programming-for-the-puzzled-january-iap-2018/",
+                "description": "MIT provided this course in 2018 as an IAP, or Independent Activities Period, course. This is basically a J-term course, meaning that it is taught over the time frame of one month and is generally shorter and more fun than a full semester course. The course includes complete materials and Srini Devadas is a pretty good teacher. The course is taught from his book, 'Programming for the Puzzled', but everything required from the text is made available in lecture or on the OCW."
+            }
+        ]
+    },
+    "Digital Communications": {
+        "description": "This course provides an introduction to digital communications, spanning multiple layers from bits to packets to signals and then decoding the signals back into packets and bits on the other end. On top of that, the course covers networking and routing protocols. This course serves as an introduction to further study of signal processing, information theory, and networking.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/",
+                "description": "This MIT OCW course is from 2011 but still relevant as the basics of digital communications haven't changed too much since then. The only thing is that the course is taught with Python 2 and some of the technology used in problem sets is not so accessible. In order to do the homework assignments, students will have to be creative and do the best they can with modern Python libraries, in some cases porting test cases from Python 2 to Python 3. Finally, the current MIT course is taught by professor Katrina LaCurts, an excellent professor, but is inaccessible to non MIT students. That being said, she may allow observers for the course if you get in contact with her."
+            }
+        ]
+    },
+    "Computation Structures": {
+        "description": "This course aims to teach students how a computer works from the ground up. You will learn how bits, a digital abstraction, are represented in hardware and then how simple hardware building blocks can be combined into complex logic circuits to make turing complete machines. You will learn how assembly code manipulates these bits and how simple primitives can be combined into complex abstractions as you move up the stack from logic circuits to pipelines, processors, memory caches, and finally software abstractions such as operating systems and virtual machines.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://6004.mit.edu/web/fall21/resources",
+                "description": "This MIT course is partially available to non MIT students. They can access homework, readings, and lectures. Additionally, other lectures can be found on youtube and more course materials can be found on MIT's OCW."
+            },
+            {
+                "index": 1,
+                "institution": "Berkeley",
+                "url": "https://www.youtube.com/playlist?list=PLhMnuBfGeCDM8pXLpqib90mDFJI-e1lpk",
+                "description": "These lectures are from Berkeley's 2015 course 61C, Machine Structures, the third part of a three course introductory CS series starting Structure and Interpretation of Computer Programs and Data Structures. The 2015 lectures are the most recent from Berkeley, but the rest of the course (homework, readings, lecture notes, etc.) can be found online on the current 61C course website."
+            }
+        ]
+    },
+    "Math for Computer Science": {
+        "description": "Math for computer science covers elementary discrete mathematics. For many students, this course may be the first where they work with formal proofs, which are very useful for actually learning math rather than simply memorizing theorems. Topics include formal logic, induction, graph theory, set theory, asymptotic analysis, counting and number theory, and discrete probability.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://www.youtube.com/playlist?list=PLB7540DEDD482705B",
+                "description": "These 2010 lectures are for MIT's 6.042J course, aka math for computer science. The lectures are the best math for CS lectures that I could find. For the remaining course materials, such as readings, homework, and quizzes, please refer to MIT's OCW materials, either 2010 or 2015. However, the 2015 OCW is a flipped classroom and the lectures aren't as good as the 2010 lectures in the youtube playlist, so I would recommend watching those instead."
+            }
+        ]
+    },
+    "Linear Algebra": {
+        "description": "Introduction to linear algebra is math concerning linear equations and linear maps and their vector representations with matrices. If this sounds like a mouthful, dont worry; it will be simple after you know more about it. Linear algebra is central to almost all areas of math and certainly to more advanced computer science, especially in applications such as graphics and machine learning, and by studying it formally we can build solid mathematical intuition before moving to more advanced topics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Brown",
+                "url": "http://cs.brown.edu/courses/cs053/current/index.htm",
+                "description": "This applied linear algebra course from Brown in 2017, taught from the book 'Coding the Matrix,' teaches students linear algebra through computation and programming. It is one of a kind, but you will have to somehow get access to the textbook for the full content of the course."
+            },
+            {
+                "index": 1,
+                "institution": "UC Davis",
+                "url": "https://www.math.ucdavis.edu/~linear/linear.pdf",
+                "description": "This multimedia textbook from UC Davis is a nice introduction to linear algebra and has all of the course materials in one place. More textbooks should be like this."
+            },
+            {
+                "index": 2,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/",
+                "description": "For the sake of completeness, this is MIT's famous linear algebra course taught by Gilbert Strang. I personally think it is just ok, but many people really like Professor Strang's teaching style and this is consistently one of MIT OCW's most popular courses."
+            }
+        ]
+    },
+    "Probability": {
+        "description": "Probability, uncertainty, and risk are becoming more central to science and modern life in general, leading some to argue that probability should replace calculus as the foundational mathematical discipline. As you move from simplicity to complexity, it becomes harder to reason about systems as a whole and using the tools of probability and modeling become more relevant. Probability underpins much of science and is closely related to statistics, statistical inference, and data science. This course aims to introduce undergraduate students to the topic and will suffice for most engineering disciplines.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/index.htm",
+                "description": "This MIT course on probability is extremely comprehensive in its scope and has all materials available online. It is perhaps more involved than other intro probability courses, but this is not a bad thing."
+            }
+        ]
+    },
+    "Single Variable Calculus": {
+        "description": "This is calculus of a single variable. It covers both differentiation and integration of a single variable, something that is typically taught as a two course sequence at most universities, usually as Calc I and Calc II. It is the starting point for college mathematics and is important to all areas of science, with computer science being no different.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/",
+                "description": "MIT's single variable calculus course is a rigorous one term treatment of what is typically taught over two terms at most colleges. It is a required for every student at MIT. If you don't like this course, make sure you learn equivalent material from whichever course you choose, specifically in regards to integration, which some intro calculus courses do not cover adequately."
+            },
+            {
+                "index": 1,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/resources/res-18-006-calculus-revisited-single-variable-calculus-fall-2010/index.htm",
+                "description": "This is MIT's single variable calculus revisited, a collection of lectures from 1971 given by legendary professor Herb Gross. He is an exceptional professor and calculus hasn't changed much since the 1700s so it is not really outdated."
+            }
+        ]
+    },
+    "Multivariable Calculus": {
+        "description": "Multivariable calculus extends the principles of single variable calculus into mutliple variables and thus mutliple dimensions. This is another failry important class, because most systems you come across in real life are going to be multidimensional and thus the tools of multivariable calculus get used in tons of different disciplines.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/",
+                "description": "This is MIT's standard calculus course following single variable calculus. It has pretty good materials but is nothing special."
+            },
+            {
+                "index": 1,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/resources/res-18-007-calculus-revisited-multivariable-calculus-fall-2011/index.htm?utm_source=OCWDept&utm_medium=CarouselSm&utm_campaign=FeaturedCourse",
+                "description": "This MIT course is multivariable calculus revisited. It is an exceptional course delivered in 1971. While it is old, it is not necessarily outdated. It is released in remembrance of legendary math professor Herb Gross."
+            }
+        ]
+    },
+    "Differential Equations": {
+        "description": "Differential equations are equations that relate one or more functions to their derivatives and are used extensively in almost all areas of physical science and engineering. While not necessarily core to computer science, it is very interesting and I would recommend learning it because it is really foundational to modern science and modeling. It serves as a foundation if you want to go on to study more complex differential equations.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/mathematics/18-03sc-differential-equations-fall-2011/index.htm",
+                "description": "This is MIT's intro course to differential equations. It has pretty good materials but is nothing special."
+            }
+        ]
+    },
+    "Physics I": {
+        "description": "Physics I is the introduction to college level physics. It covers classical mechanics, aka Netwonian mechanics, which are essentially the mechanics we might use to describe objects of middling size, ie not extremely large or small.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://www.youtube.com/playlist?list=PLyQSN7X0ro203puVhQsmCj9qhlFQ-As8e",
+                "description": "This is a lecture series delivered by legendary professor Walter Lewin. They are some of the best physics lectures available. However, due to a controversy involving professor Lewin, these lectures were removed from MIT's OCW. You can find supplemental materials in the video descriptions, but if you want to see it all in one place you can always find MIT's OCW pages."
+            }
+        ]
+    },
+    "Physics II": {
+        "description": "Physics II is the second course in the introductory physics sequence. It covers electricity and magnetism. This is important to understanding how computers work at a fundamental level. It is probably not essential to go beyond Physics II for CS, but if you might want to if you are interested in understanding quantum computers.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://www.youtube.com/playlist?list=PLyQSN7X0ro2314mKyUiOILaOC2hk6Pc3j",
+                "description": "This is a lecture series delivered by legendary professor Walter Lewin. They are some of the best physics lectures available. However, due to a controversy involving professor Lewin, these lectures were removed from MIT's OCW. You can find supplemental materials in the video descriptions, but if you want to see it all in one place you can always find MIT's OCW pages."
+            }
+        ]
+    },
+    "Computer Systems Engineering": {
+        "description": "This course focuses on designing and engineering systems. It touches 4 general topic areas: operating systems, networking, distributed systems, and security, serving as an introduction and prerequisite to further study in each of these areas.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://web.mit.edu/6.033/www/",
+                "description": "This is a mid level course given by MIT's Katrina LaCurts. She is an exceptional teacher and this course is great. The materials are complete, except for a couple of textbook chapters and grading of assignments."
+            }
+        ]
+    },
+    "Intro to Machine Learning": {
+        "description": "This course introduces principles, algorithms, and applications of machine learning from the point of view of modeling and prediction. It includes formulation of learning problems and concepts of representation, over-fitting, and generalization. These concepts are exercised in supervised learning and reinforcement learning, with applications to images and to temporal sequences.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/about",
+                "description": "This MIT course starts to get a bit MOOCish, but it is still good. They have readings to do alongside the lectures and pretty good autograded homework and labs."
+            },
+            {
+                "index": 1,
+                "institution": "Stanford",
+                "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rNH7qL6-efu_q2_bPuy0adh",
+                "description": "Stanfords intro to ML course. Materials can be found on the course website from Stanford."
+            },
+            {
+                "index": 2,
+                "institution": "Stanford",
+                "url": "https://stanford-cs221.github.io/",
+                "description": "This is stanfords AI course. There is significant overlap with introductory machine learning, but this course puts more of an emphasis on artificial intelligence and teaches slightly different algorithms. If you cannot access videos on the course website, they have 2019 lectures on Stanford's youtube channel."
+            }
+        ]
+    },
+    "Software Engineering": {
+        "description": "The aim of this course is to teach students to write code that is safe from bugs, easy to understand, and ready for change. Toward this end, students learn numerous software engineering techniques and principles, in addition to completing substantial project work.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://web.mit.edu/6.031/www/",
+                "description": "This is an MIT flipped classroom where basically all of the material is online on the course website. There is no lectures, it is just the online readings and assignments. It is taught with TypeScript."
+            },
+            {
+                "index": 1,
+                "institution": "Vancouver Island U",
+                "url": "http://csciun1.mala.bc.ca:8080/~wesselsd/courses/csci265/index.html",
+                "description": "This is Vancouver's software engineering course. It has course materials and youtube videos for lectures available online."
+            }
+        ]
+    },
+    "Operating Systems": {
+        "description": "This course provides a detailed introduction to operating systems. Operating systems are great pieces of software to study not only because they are essential to how we use most computers, but also because they are very mature and developed pieces of software. This means we can learn a lot about software engineering by studying how operating systems solve problems and overcome obstacles.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "University of Buffalo",
+                "url": "https://ops-class.org/",
+                "description": "This course is adapted from Harvard's operating systems course that Mark Zuckerberg dropped out of to start Facebook. It is really high quality and has all materials available online."
+            }
+        ]
+    },
+    "Intro to Deep Learning": {
+        "description": "Introduces students to Deep Learning and neural networks. Gives a broad overview of different types of neural networks, different applications domains, different techniques, and other current topics in the field.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Stanford",
+                "url": "https://cs230.stanford.edu/",
+                "description": "This is Stanford's course taught by the influential Andrew Ng. It has complete materials. It is a flipped classroom, meaning most axilliary materials are of high quality."
+            },
+            {
+                "index": 1,
+                "institution": "MIT",
+                "url": "http://introtodeeplearning.com/",
+                "description": "This is an IAP seminar inturoducing students to deep learning. It covers some of the basics of how a neural network works and walks students through a few fun projects. Since it is an IAP it is shorter than a traditional class. As such, it also is not as complete as a proper deep learning course, but is sufficient as a primer. It is well produced, but at times can feel like a tutorial."
+            }
+        ]
+    },
+    "Machine Learning with Graphs": {
+        "description": "This course covers machine learning topics related to graphs, such as graph neural networks.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Stanford",
+                "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn",
+                "description": "Acommpanying course materials can be found on Stanford's course website."
+            }
+        ]
+    },
+    "Deep Multitask and Meta Learning": {
+        "description": "This deep learning course focuses on multi-task learning and meta learning algorithms.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Stanford",
+                "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rPLKxIpqhjhPgdQy7imNkDn",
+                "description": "Lectures are available for this course, but I could not find accompanying materials. They may exist, but you might have to do some sleuthing."
+            }
+        ]
+    },
+    "Natural Language Processing": {
+        "description": "Natural Language Processing course with deep learning.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Stanford",
+                "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z",
+                "description": "These are the lectures from 2019. Updated course materials can be found on the current course website."
+            }
+        ]
+    },
+    "Natural Language Understanding": {
+        "description": "This is a more theoretical, in depth investigation of natural language understanding than natural language processing courses provide.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Stanford",
+                "url": "https://www.youtube.com/watch?v=tZ_Jrc_nRJY&list=PLoROMvodv4rObpMCir6rNNUlFAn56Js20&index=1",
+                "description": "These are the lectures from 2019. Updated course materials can be found on the current course website."
+            }
+        ]
+    },
+    "Reinforcement Learning": {
+        "description": "This machine learning course looks specifically at reinforcement learning.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Stanford",
+                "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u",
+                "description": "These are the lectures from 2019. Updated course materials can be found on the current course website."
+            }
+        ]
+    },
+    "Compilers": {
+        "description": "This course investigates how compilers work.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Vancouver Island U",
+                "url": "http://csci.viu.ca/~wesselsd/courses/csci435/",
+                "description": "This course's materials are available on the course website, with video lectures on YouTube."
+            }
+        ]
+    },
+    "Programming Languages": {
+        "description": "This course investigates how programming languages work.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Vancouver Island U",
+                "url": "http://csciun1.mala.bc.ca:8080/~wesselsd/courses/csci330/",
+                "description": "This course's materials are available on the course website, with video lectures on YouTube."
+            }
+        ]
+    },
+    "Complexity Theory": {
+        "description": "This course introduces students to computational complexity.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "CMU",
+                "url": "https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2",
+                "description": "Course materials can be found in the description of the youtube playlist."
+            }
+            
+        ]
+    },
+    "Graduate Complexity Theory": {
+        "description": "This course gets students up to speed on advanced complexity theory research..",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "CMU",
+                "url": "https://www.youtube.com/playlist?list=PLm3J0oaFux3b8Gg1DdaJOzYNsaXYLAOKH",
+                "description": "Course materials can be found in the description of the youtube playlist."
+            }
+        ]
+    },
+    "Intro to Theoretical CS": {
+        "description": "This course introduces students to concepts relating to computability, complexity, and automata.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "CMU",
+                "url": "https://www.youtube.com/playlist?list=PLm3J0oaFux3aafQm568blS9blxtA_EWQv",
+                "description": "These are some selected lectures from CMU's Great Ideas is Theoretical Computer Science. You can find supporting materials on the course website, which can be found in the playlist's description."
+            },
+            {
+                "index": 1,
+                "institution": "MIT",
+                "url": "https://www.youtube.com/playlist?list=PLmUkKyGlHupqtANK5Pmo1gjLlmW1pF1q7",
+                "description": "This is a recent lecture playlist for MIT's 6.045: Automata, Computability, and Complexity. Course materials can be found via a google search, either OCW or current a course website."
+            }
+        ]
+    },
+    "Databases": {
+        "description": "This course is about database design and implementation, meaning writing your own database from scratch.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "CMU",
+                "url": "https://15445.courses.cs.cmu.edu/",
+                "description": "This website should contain complete course materials for databases."
+            }
+        ]
+    },
+    "Advanced Databases": {
+        "description": "This course about advanced topics in modern database management.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "CMU",
+                "url": "https://15721.courses.cs.cmu.edu/",
+                "description": "This website should contain complete course materials for databases. Sutdents should feel very comfortable with systems programming before taking this course."
+            }
+        ]
+    },
+    "Computer Systems Security": {
+        "description": "This course provides an introduction to computer security.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://css.csail.mit.edu/6.858/",
+                "description": "This course website has full course materials available."
+            }
+        ]
+    },
+    "iPhone App Development": {
+        "description": "This course is about iPhone app development.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Stanford",
+                "url": "https://cs193p.sites.stanford.edu/",
+                "description": "This course website has full course materials available."
+            }
+        ]
+    },
+    "Networking": {
+        "description": "This course is about computer networking.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Northwestern",
+                "url": "https://www.youtube.com/playlist?list=PLWl7jvxH18r3nnotitKkyAjq268PQGc0-",
+                "description": "The course website with full course materials can be found in the video descriptions."
+            }
+        ]
+    },
+    "Data Management and Information Processing": {
+        "description": "This course is about working with data. Topics include SQL, databases, and data processing.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Northwestern",
+                "url": "https://www.youtube.com/playlist?list=PLWl7jvxH18r3nnotitKkyAjq268PQGc0-",
+                "description": "The course website with full course materials can be found in the video descriptions."
+            }
+        ]
+    },
+    "Scalable Software Architectures": {
+        "description": "This course is about building large, scaleable software systems such as Google Search.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Northwestern",
+                "url": "https://www.youtube.com/playlist?list=PLWl7jvxH18r0u5VRZsOjhghNXc_Ec4dZz",
+                "description": "The course website with full course materials can be found in the video descriptions."
+            }
+        ]
+    },
+    "Distributed Systems": {
+        "description": "This course is about building large, distributed software systems.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://pdos.csail.mit.edu/6.824/",
+                "description": "Full course materials, including video, can be found on the course website."
+            }
+        ]
+    },
+    "Principles of Computer Systems": {
+        "description": "This course covers the basic principles of computer systems, emphasizing rigirous techniques to ensure the correctness of software, particularly concurrent and distributed systems.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://6826.csail.mit.edu/",
+                "description": "Full course materials, including video, can be found on the course website."
+            }
+        ]
+    },
+    "Creating Video Games": {
+        "description": "This course focuses on technical aspects of video game creation.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/comparative-media-studies-writing/cms-611j-creating-video-games-fall-2014/index.htm",
+                "description": "Full course materials, including video, can be found on the OCW. Despite being from 2014, the course holds up really well."
+            }
+        ]
+    },
+    "Game Design": {
+        "description": "This course focuses on creative game design.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/comparative-media-studies-writing/cms-608-game-design-spring-2014/",
+                "description": "Full course materials, including video, can be found on the OCW. Despite being from 2014, the course holds up really well."
+            }
+        ]
+    },
+    "Computational Biology with Deep Learning": {
+        "description": "This course applies deep learning to computational biology.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://mit6874.github.io/",
+                "description": "Great course from a great professor. Sudents should be familiar with molecular biology before taking this course."
+            }
+        ]
+    },
+    "Computational Biology in Genomics": {
+        "description": "This course teaches computational biology applied to genomics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://mit6874.github.io/",
+                "description": "Great course from a great professor. Sudents should be familiar with molecular biology before taking this course."
+            }
+        ]
+    },
+    "Software Performance Engineering": {
+        "description": "This course focuses on writing performant pieces of software.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/",
+                "description": "Has all course materials."
+            }
+        ]
+    },
+    "Convolutional Neural Networks": {
+        "description": "This course is about CNNs for computer vision..",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Stanford",
+                "url": "https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv",
+                "description": "This is a small lecture series from 2017."
+            }
+        ]
+    },
+    "Web Security": {
+        "description": "This course is about web security.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Stanford",
+                "url": "https://www.youtube.com/playlist?list=PL1y1iaEtjSYiiSGVlL1cHsXN_kvJOOhu-",
+                "description": "You will have to find the course website for homework materials."
+            }
+        ]
+    },
+    "Web App Development": {
+        "description": "This course is about web app development.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Harvard",
+                "url": "https://www.youtube.com/playlist?list=PLnzclEQVIaQ54ND1eteyEXQ4rujQYRQAS",
+                "description": "You will have to find the course website for homework materials."
+            }
+        ]
+    },
+    "Cryptography": {
+        "description": "This course is about cryptography.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://www.youtube.com/playlist?list=PL6ogFv-ieghe8MOIcpD6UDtdK-UMHG8oH",
+                "description": "You will have to find the course website for homework materials."
+            }
+        ]
+    },
+    "Computer Graphics": {
+        "description": "This course is about computer graphics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://www.youtube.com/playlist?list=PLQ3UicqQtfNuBjzJ-KEWmG1yjiRMXYKhh",
+                "description": "You will have to find the course website for homework materials."
+            }
+        ]
+    },
+    "Quantum Computation": {
+        "description": "This course is about quantum computation.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "CMU",
+                "url": "https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz",
+                "description": "This is a lecture playlist from CMU. Full materials can be found in the playlist description or current course website."
+            }
+        ]
+    },
+    "Theory Seminar": {
+        "description": "This is a seminar on Theory topics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Berkeley",
+                "url": "https://simons.berkeley.edu/videos",
+                "description": "The Simon's institute at Berkeley features frequent seminars and bootcamps about many interesting topic areas in computer science."
+            },
+            {
+                "index": 1,
+                "institution": "CMU",
+                "url": "https://www.youtube.com/channel/UCWFp4UWNiOv71j0sPbdNiqw/playlists",
+                "description": "These are lunch seminars from CMU's theory group."
+            }
+        ]
+    },
+    "Intro to Neural Computation": {
+        "description": "This course is about neural computation, introducing quantitative approaches to understanding cognitive functions. Familiarity with neuroscience is assumed.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-40-introduction-to-neural-computation-spring-2018/syllabus/",
+                "description": "This is MIT's course on neural computation. It is taught using MATLAB."
+            }
+        ]
+    },
+    "Battlecode": {
+        "description": "Battlecode is MIT's annual programming competition that happens every January. Teams face off by programming AI contestants to play against each other in a tournament. While non-students can't win prize money, they can still compete.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://battlecode.org/",
+                "description": "This is the homepage for battlecode. Competition starts in January, lectures are streamed on twitch. While there are no formal prerequisites, it helps to know algorithms, pathfinding, and other basic programming knowledge."
+            }
+        ]
+    },
+    "Weblab": {
+        "description": "Weblab is an annual programming competition at MIT that happens every January. It is a J-term course, so it is only four weeks long. It is focused on web development. Non-students cannot compete for prize money, but you can still follow along with the course.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://weblab.mit.edu/",
+                "description": "This is the homepage for web.lab. Competition starts in January, lectures are streamed on youtube. While there are no formal prerequisites, it helps to know how to program."
+            }
+        ]
+    },
+    "Statistics": {
+        "description": "While a lot of probability courses cover some statistics, this is a deeper dive. Statistics has tons of applications and is present in every field, but not every practitioner has a deep understanding of stats. This course aims to provide more background so you can understand the stats that you will surely use in the future.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/mathematics/18-650-statistics-for-applications-fall-2016/",
+                "description": "This is MIT's statistics for applications course. Its goal is to arm students with statistical methods that will aid them in the future when trying to infer from data."
+            }
+        ]
+    }
+}
