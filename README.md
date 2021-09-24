@@ -8,7 +8,7 @@ This repo is a webpage mostly geared toward the visualization aspects of the pro
 
 ## Current Features
 
-The landing page, shown below, is comprised of a list of subject areas, with each subhject being a button that, when pushed, generates a digraph depicting the curriculum. The list is automatically generated from the data files. This is an imporvement from a previous version of the project where the buttons were hardcoded in.
+The landing page, shown below, is comprised of a list of subject areas, with each subject being a button that, when pushed, generates a digraph depicting the curriculum. The list is automatically generated from the data files. This is an imporvement from a previous version of the project where the buttons were hardcoded in.
 
 ![collecobrary_landing_page](https://user-images.githubusercontent.com/78166995/134688002-efaaefe0-bb3d-48cb-95e9-4b7bc75737b0.PNG)
 
