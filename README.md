@@ -6,7 +6,7 @@ The idea of this project is to present a collection of college courses sourced f
 
 This repo is a webpage mostly geared toward the visualization aspects of the project. I made the curricula digraph visualization using d3. My other repo, curated-courses, contains other content of the website and was actually a past version. Sometime in the future I may marry these two projects to make a full featured website.
 
-## Feature Highlight
+## Current Features
 
 The landing page, shown below, is comprised of a list of subject areas, with each subhject being a button that, when pushed, generates a digraph depicting the curriculum. The list is automatically generated from the data files. This is an imporvement from a previous version of the project where the buttons were hardcoded in.
 
