@@ -20,7 +20,7 @@ Additionally, right now the category colors for the legend are randomly generate
 
 Finally, when you hover over a node, a tooltip reveals the name of the course and parent and child prereqs change their coloring. If you double click a node, a description and link to the course appears.
 
-![collecobrary_digraph_hover](https://user-images.githubusercontent.com/78166995/134690221-18796d3e-f08a-4931-8da4-f563456456f0.PNG)
+![collecobrary_node_hover_and_dblclick](https://user-images.githubusercontent.com/78166995/134691867-8195d604-d28e-43b7-8476-bb21f9ce4f39.PNG)
 
 These features are alright, but there are still some improvements I can make for v3. These include:
 
