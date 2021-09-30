@@ -1,10 +1,10 @@
 # collecobrary
 
-**Website presenting university degree roadmaps that contain 100% online, free college courses.**
+**Version 2.0 of a website presenting college degree roadmaps.**
 
 The idea of this project is to present a collection of college courses sourced from OCW and university course webpages.
 
-This repo is a webpage mostly geared toward the visualization aspects of the project. I made the curricula digraph visualization using d3. My other repo, curated-courses, contains other content of the website and was actually a past version. Sometime in the future I may marry these two projects to make a full featured website.
+This repo is mostly geared toward the visualization aspects of the project. I made the curricula digraph visualization using d3. My previous repo, curated-courses, contains other content of the website that I may include in a third version once I figure out how I want the graph itself to look.
 
 ## Current Features
 
@@ -22,7 +22,7 @@ Finally, when you hover over a node, a tooltip reveals the name of the course an
 
 ![collecobrary_node_hover_and_dblclick](https://user-images.githubusercontent.com/78166995/134691867-8195d604-d28e-43b7-8476-bb21f9ce4f39.PNG)
 
-These features are alright, but there are still some improvements I can make for v3. These include:
+These features are alright, but there are still some tweaks I am thinking about. These include:
 
 - Displaying course titles when cursor is in the neighborhood of a course rather than directly on hover. This would allow users to more quickly explore the graph.
 - Somehow highlight starting courses, perhaps by bolding their outlines or making the edges of the graph thicker. This would help visualize the flow of the graph. Since it is acyclic, there is a definite direction that is hard to grasp in the current design.
