@@ -27,7 +27,7 @@ These features are alright, but there are still some tweaks I am thinking about.
 - Displaying course titles when cursor is in the neighborhood of a course rather than directly on hover. This would allow users to more quickly explore the graph.
 - Somehow highlight starting courses, perhaps by bolding their outlines or making the edges of the graph thicker. This would help visualize the flow of the graph. Since it is acyclic, there is a definite direction that is hard to grasp in the current design.
 - It would be useful if there was a sidebar you could scroll to look at all of the courses, sorted by chronological order or network hops from a starting node. This sidebar would interface with course hovering to make the structure of the degree roadmap mopre obvious.
-- Finally, it may be benficial to have an about section for each graph, explaining curriculum choices and why the courses are arranged the way that they are.
+- Finally, it may be benficial to have an about section for each graph, explaining curriculum choices and why the courses are arranged the way that they are, but I am still unsure of where to put this navigation-wise. Perhaps I can link it in the legend.
 
 ## Project setup
 ```
