@@ -14,7 +14,7 @@ The landing page, shown below, is comprised of a list of subject areas, with eac
 
 Next, is the curriculum digraph itself. It is made using d3. Its basically a force directed graph where physical forces act on each node and edge to control the appearance of the graph, with only the topology being defined by the data. This is an improvement from the previous version, since now you don't have to determine x and y coordinates for each course, although the graph can get convoluted as interconnections grow. One solution to this is to prune redundant edges, though sometimes high interconnectivity cannot be avoided if a course has many prereqs. Thoughtful curriculum design may be a workaround.
 
-Additionally, right now the category colors for the legend are randomly generated. I think that it would be better if I hardcoded a color for each category so then users can easily remember which courses are which since I don't have labels on the nodes, but as categories grow I would run out of colors. Randomness makes it easier from a design perspective, but may not be that user friendly.
+Additionally, right now the category colors for the legend are randomly generated. I think that it would be better if I hardcoded a color for each category so then users can easily intuit which courses are which since I don't have labels on the nodes, but as categories grow I might run out of easily distinguishable colors. Randomness makes it easier from a design perspective, but may not be as user friendly.
 
 ![collecobrary_course_digraph](https://user-images.githubusercontent.com/78166995/134689102-3f8a7a37-615b-4f93-8181-24e9717dc839.PNG)
 
