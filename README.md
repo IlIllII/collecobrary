@@ -29,6 +29,14 @@ These features are alright, but there are still some tweaks I am thinking about.
 - It would be useful if there was a sidebar you could scroll to look at all of the courses, sorted by chronological order or network hops from a starting node. This sidebar would interface with course hovering to make the structure of the degree roadmap mopre obvious.
 - Finally, it may be benficial to have an about section for each graph, explaining curriculum choices and why the courses are arranged the way that they are, but I am still unsure of where to put this navigation-wise. Perhaps I can link it in the legend.
 
+## Final Thoughts
+
+Sourcing courses is still an unsolved problem. I had manually compiled a dataset in 2019 of over 1000 courses sourced from OCW, university YouTube channels, and individual course websites made public by professors, but two years later in 2021 over 25% of them were no longer available. OCW was not a problem, but then these courses go out of date with each passing year. YouTube and course websites presented a different problem, because they were not as stable and many of them got removed, moved, or updated to no longer be public.
+
+If anyone has ideas for how to sustainably source the content I would love to hear from you.
+
+***
+
 ## Project setup
 ```
 npm install
