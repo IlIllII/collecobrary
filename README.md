@@ -8,11 +8,11 @@ This repo is mostly geared toward the visualization aspects of the project. I ma
 
 ## Current Features
 
-The landing page, shown below, is comprised of a list of subject areas, with each subject being a button that, when pushed, generates a digraph depicting the curriculum. The list is automatically generated from the data files. This is an imporvement from a previous version of the project where the buttons were hardcoded in.
+The landing page, shown below, is comprised of a list of subject areas, with each subject being a button that, when pressed, generates a digraph depicting the curriculum. The buttons are automatically generated from the data files. This is an improvement from the previous version of the project where the buttons were hardcoded.
 
 ![collecobrary_landing_page](https://user-images.githubusercontent.com/78166995/134688002-efaaefe0-bb3d-48cb-95e9-4b7bc75737b0.PNG)
 
-Next, is the curriculum digraph itself. It is made using d3 and is basically a force directed graph where physics forces act on each node and edge to control the appearance of the graph, with only the topology being defined by the data. This is an improvement from a previous version, since now you don't have to determine x and y coordinates for each course, although the graph can get convoluted as interconnections grow. One solution to this is to prune redundant edges, though sometimes high interconnectivity cannot be avoided if a course has many prereqs.
+Next, is the curriculum digraph itself. It is made using d3. Its basically a force directed graph where physical forces act on each node and edge to control the appearance of the graph, with only the topology being defined by the data. This is an improvement from the previous version, since now you don't have to determine x and y coordinates for each course, although the graph can get convoluted as interconnections grow. One solution to this is to prune redundant edges, though sometimes high interconnectivity cannot be avoided if a course has many prereqs. Thoughtful curriculum design may be a workaround.
 
 Additionally, right now the category colors for the legend are randomly generated. I think that it would be better if I hardcoded a color for each category so then users can easily remember which courses are which since I don't have labels on the nodes, but as categories grow I would run out of colors. Randomness makes it easier from a design perspective, but may not be that user friendly.
 
