@@ -726,5 +726,552 @@
                 "description": "This is MIT's statistics for applications course. Its goal is to arm students with statistical methods that will aid them in the future when trying to infer from data."
             }
         ]
+    },
+    "Machine Learning in Healthcare": {
+        "description": "This course introduces students to machine learning in healthcare, including the nature of clinical data and the use of machine learning for risk stratification, disease progression modeling, precision medicine, diagnosis, subtype discovery, and improving clinical workflows.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s897-machine-learning-for-healthcare-spring-2019/index.htm",
+                "description": "This is an MIT OCW course with lectures and assignments."
+            }
+        ]
+    },
+    "Physics III": {
+        "description": "Physics course on vibrations and waves.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://www.youtube.com/playlist?list=PLyQSN7X0ro22WeXM2QCKJm2NP_xHpGV89",
+                "description": "Walter Lewin's lecture series. Assignments are in video descriptions."
+            }
+        ]
+    },
+    "General Relativity": {
+        "description": "General Relativity",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/physics/8-962-general-relativity-spring-2020/",
+                "description": "This is a graduate class from MIT in 2020."
+            }
+        ]
+    },
+    "Quantum Physics I": {
+        "description": "Introduces the basics of quantum mechanics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/physics/8-04-quantum-physics-i-spring-2016/",
+                "description": "Full MIT OCW course from 2016."
+            }
+        ]
+    },
+    "Quantum Physics II": {
+        "description": "Second course in quantum physics sequence.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/physics/8-05-quantum-physics-ii-fall-2013/",
+                "description": "Full MIT OCW course from 2013."
+            }
+        ]
+    },
+    "Quantum Physics III": {
+        "description": "Final course in quantum physics sequence.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/physics/8-06-quantum-physics-iii-spring-2018/",
+                "description": "Full MIT OCW course from 2018."
+            }
+        ]
+    },
+    "The Early Universe": {
+        "description": "Introductory course in cosmology.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/physics/8-286-the-early-universe-fall-2013/index.htm",
+                "description": "Full MIT OCW course from 2013."
+            }
+        ]
+    },
+    "Statistical Mechanics I": {
+        "description": "Graduate level introduction to statistical mechanics. Prior exposure to statistical physics is recommended.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/physics/8-333-statistical-mechanics-i-statistical-mechanics-of-particles-fall-2013/",
+                "description": "Full MIT OCW course from 2013."
+            }
+        ]
+    },
+    "Statistical Mechanics II": {
+        "description": "Continuation of statistical mechanics with examination of fields.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/physics/8-334-statistical-mechanics-ii-statistical-physics-of-fields-spring-2014/",
+                "description": "Full MIT OCW course from 2014."
+            }
+        ]
+    },
+    "Quantum Computation I": {
+        "description": "Intro to quantum computation.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/physics/8-370x-quantum-information-science-i-spring-2018/",
+                "description": "Full MIT OCW course from 2018."
+            }
+        ]
+    },
+    "Quantum Computation II": {
+        "description": "Second course in quantum computation.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/physics/8-371x-quantum-information-science-ii-spring-2018/",
+                "description": "Full MIT OCW course from 2018."
+            }
+        ]
+    },
+    "Atomic and Optical Physics I": {
+        "description": "The first of a two part course on atomic and optical physics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/physics/8-421-atomic-and-optical-physics-i-spring-2014/",
+                "description": "Full MIT OCW course from 2014."
+            }
+        ]
+    },
+    "Atomic and Optical Physics II": {
+        "description": "The second of a two part course on atomic and optical physics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/physics/8-422-atomic-and-optical-physics-ii-spring-2013/",
+                "description": "Full MIT OCW course from 2013."
+            }
+        ]
+    },
+    "Intro to Nuclear and Particle Physics": {
+        "description": "Intro to Nuclear and Particl Physics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/physics/8-701-introduction-to-nuclear-and-particle-physics-fall-2020/index.htm",
+                "description": "Full MIT OCW course from 2020."
+            }
+        ]
+    },
+    "Cryptocurrency Engineering and Design": {
+        "description": "Intro to cryptocurrencies.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/media-arts-and-sciences/mas-s62-cryptocurrency-engineering-and-design-spring-2018/",
+                "description": "Full MIT OCW course from 2018."
+            }
+        ]
+    },
+    "Intro to Microeconomics": {
+        "description": "Intro to microeconomics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/economics/14-01-principles-of-microeconomics-fall-2018/",
+                "description": "Full MIT OCW course from 2018."
+            }
+        ]
+    },
+    "Intro to Macroeconomics": {
+        "description": "Intro to macroeconomics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Missouri State",
+                "url": "https://www.youtube.com/playlist?list=PLJpqFJdf_oz0Slj_-v2QnTpnuvfKeA3Kt",
+                "description": "Course from 2020."
+            }
+        ]
+    },
+    "Behavioral Economics": {
+        "description": "Intro to behavioral economics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/economics/14-13-psychology-and-economics-spring-2020/",
+                "description": "Full MIT OCW course from 2020."
+            }
+        ]
+    },
+    "Energy Decisions, Markets, and Policies": {
+        "description": "Economics elective.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/sloan-school-of-management/15-031j-energy-decisions-markets-and-policies-spring-2012/index.htm",
+                "description": "Full MIT OCW course from 2012."
+            }
+        ]
+    },
+    "The Challenge of World Poverty": {
+        "description": "Course about world poverty.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/economics/14-73-the-challenge-of-world-poverty-spring-2011/index.htm",
+                "description": "Full MIT OCW course from 2011."
+            }
+        ]
+    },
+    "Development Economics": {
+        "description": "Course about development economics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/economics/14-772-development-economics-macroeconomics-spring-2013/",
+                "description": "Full MIT OCW course from 2013."
+            }
+        ]
+    },
+    "Intro to Game Theory": {
+        "description": "Course about game theory.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Yale",
+                "url": "https://www.youtube.com/playlist?list=PL6EF60E1027E1A10B",
+                "description": "Yale course."
+            }
+        ]
+    },
+    "Financial Economics": {
+        "description": "Course about financial economics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Yale",
+                "url": "https://www.youtube.com/playlist?list=PLEDC55106E0BA18FC",
+                "description": "Yale course."
+            },
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/sloan-school-of-management/15-401-finance-theory-i-fall-2008/",
+                "description": "MIT OCW course from 2008."
+            }
+        ]
+    },
+    "Financial Markets": {
+        "description": "Course about financial markets.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Yale",
+                "url": "https://www.youtube.com/playlist?list=PL8FB14A2200B87185",
+                "description": "Yale course."
+            }
+        ]
+    },
+    "Blockchain and Money": {
+        "description": "Course about blockchain.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/courses/sloan-school-of-management/15-s12-blockchain-and-money-fall-2018/index.htm",
+                "description": "MIT course."
+            }
+        ]
+    },
+    "Public Economics": {
+        "description": "Course about public economics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Harvard",
+                "url": "https://www.youtube.com/playlist?list=PL2SOU6wwxB0v3c46v2ptuDKIHmXHRAmeU",
+                "description": "Harvard course from Raj Chetty."
+            },
+            {
+                "index": 1,
+                "institution": "NYU",
+                "url": "https://www.youtube.com/playlist?list=PLPClF5HvrYnl5SiVFEdC07HvJY4ut_ZTc",
+                "description": "NYU course, focused on public finance."
+            }
+        ]
+    },
+    "Using Big Data to Solve Economic and Social Problems": {
+        "description": "Course about applied economics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Harvard",
+                "url": "https://opportunityinsights.org/course/",
+                "description": "Harvard course."
+            }
+        ]
+    },
+    "Sports and Entertainment Economics": {
+        "description": "Course about sports economics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Missouri",
+                "url": "https://www.youtube.com/playlist?list=PLJpqFJdf_oz2DAj4EV87Si1ETpYcVmSPE",
+                "description": "Missouri course."
+            }
+        ]
+    },
+    "Healthcare Economics": {
+        "description": "Course about healthcare economics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Missouri",
+                "url": "https://www.youtube.com/playlist?list=PLJpqFJdf_oz0t1-ETZ0fZ4-VL3ajg0ip9",
+                "description": "Missouri course."
+            }
+        ]
+    },
+    "Marxian Economics": {
+        "description": "Course about marxian economics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "UMass",
+                "url": "https://www.youtube.com/playlist?list=PL8B2364D7C0D31D63",
+                "description": "UMass course."
+            }
+        ]
+    },
+    "Intermediate Macroeconomics": {
+        "description": "Course about macroeconomics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "TCU",
+                "url": "https://www.youtube.com/playlist?list=PLj-0ZvrSydaZLTHvGacncUm_xVphm_-E4",
+                "description": "TCU course."
+            }
+        ]
+    },
+    "Intermediate Microeconomics": {
+        "description": "Course about microeconomics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Ottowa",
+                "url": "https://www.youtube.com/playlist?list=PL29-1PKs-8EX-CYFYIXfdSX2MUYaYS4jE",
+                "description": "youtube course."
+            },
+            {
+                "index": 1,
+                "institution": "Bilkent",
+                "url": "https://www.youtube.com/playlist?list=PL5B3KLQNAC5jcLG1VnaloHqGPXOU4JEoI",
+                "description": "youtube course."
+            }
+        ]
+    },
+    "International Economics": {
+        "description": "Course about international economics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "TCU",
+                "url": "https://www.youtube.com/playlist?list=PLj-0ZvrSydaar8R5nDKzlvpOcSbgq9HoZ",
+                "description": "youtube course."
+            },
+            {
+                "index": 1,
+                "institution": "Ottowa",
+                "url": "https://www.youtube.com/playlist?list=PL29-1PKs-8EWqXvqg6CmEcPqWpZjrLQaO",
+                "description": "youtube course."
+            }
+        ]
+    },
+    "Intro to Econometrics": {
+        "description": "Course about econometrics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "TCU",
+                "url": "https://www.youtube.com/playlist?list=PLj-0ZvrSydabISvUd23_knU4HbAtYLwMI",
+                "description": "youtube course."
+            },
+            {
+                "index": 1,
+                "institution": "U of Oregon",
+                "url": "https://www.youtube.com/playlist?list=PL7vNyVXxvcu-bvpdBR_jExrDl6ESioZ4b",
+                "description": "youtube course."
+            }
+        ]
+    },
+    "Contending Perspectives in Economics": {
+        "description": "Course about different economic schools of thought..",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "TCU",
+                "url": "https://www.youtube.com/playlist?list=PLj-0ZvrSydaYTFEZ4fuSJEpgE0YQH4RbG",
+                "description": "youtube course."
+            }
+        ]
+    },
+    "Capitalism: Success, Crisis and Reform": {
+        "description": "Interpretation of capitalism using ideas from biology.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Yale",
+                "url": "https://www.youtube.com/playlist?list=PL2497FD1251EED4DD",
+                "description": "youtube course."
+            }
+        ]
+    },
+    "Intro to Advanced Macroeconomic Analysis": {
+        "description": "Macroeconomic analysis.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Humboldt",
+                "url": "https://www.youtube.com/playlist?list=PLJZlW3ik4xixAhVnY0aaTrz72XCZsygEA",
+                "description": "youtube course."
+            }
+        ]
+    },
+    "Labor Markets and Search Frictions": {
+        "description": "Labor Economics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Humboldt",
+                "url": "https://www.youtube.com/playlist?list=PLJZlW3ik4xiy-QJQ2Ea97yULijmHoDf2r",
+                "description": "Masters course in labor economics."
+            }
+        ]
+    },
+    "European Integration": {
+        "description": "Integration if the EU.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Humboldt",
+                "url": "https://www.youtube.com/playlist?list=PLJZlW3ik4xiwlIZFNCYk-Ewx4yA231aSO",
+                "description": "Bachelors course in economic integration."
+            }
+        ]
+    },
+    "Shaping the Future of Work": {
+        "description": "Thinking about the future of work.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "MIT",
+                "url": "https://ocw.mit.edu/resources/res-15-003-shaping-the-future-of-work-15-662x-spring-2016/index.htm",
+                "description": "MOOC course from MIT OCW in 2016."
+            }
+        ]
+    },
+    "Global Problems of Population Growth": {
+        "description": "Thinking about global Population.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Yale",
+                "url": "https://www.youtube.com/playlist?list=PLE60A08636F41C128",
+                "description": "Yale lecture series."
+            }
+        ]
+    },
+    "Topics Seminar": {
+        "description": "Seminar series.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "University of Chicago",
+                "url": "https://www.youtube.com/playlist?list=PLSSQ1ikQ6KGjjVDTiH8w6U_y7ynkP0d8L",
+                "description": "Seminar series from UChicago."
+            }
+        ]
+    },
+    "Math for Economics": {
+        "description": "Math class teaching basic linear algebra and linear equations needed for rigorous economic analysis.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "UC Irvine",
+                "url": "https://www.youtube.com/playlist?list=PLqOZ6FD_RQ7n8yvjW0DAxRAmou8EOzbpD",
+                "description": "Open course from UCI."
+            }
+        ]
+    },
+    "American Economic History": {
+        "description": "Course on economic history.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "UC Berkeley",
+                "url": "https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCP_kfWTMuyCNFGtydWoKzm",
+                "description": "Archived webcasts from Berkeley. It can be hard to navigate but the content is good."
+            }
+        ]
+    },
+    "Case studies in Economic Development": {
+        "description": "Course looking at empirical methods by going through specific case studies.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "UC Berkeley",
+                "url": "https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iDG70IJ1bxlNb-srMLCwcfB",
+                "description": "Archived webcasts from Berkeley. It can be hard to navigate but the content is good."
+            }
+        ]
+    },
+    "Intro to Political Economy": {
+        "description": "Course looking introducing political economy.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "Duke",
+                "url": "https://sites.duke.edu/intrope/",
+                "description": "Accessible course on political economy."
+            }
+        ]
+    },
+    "Econometrics": {
+        "description": "Continuation of econometrics.",
+        "courses": [
+            {
+                "index": 0,
+                "institution": "U of Oregon",
+                "url": "https://www.youtube.com/playlist?list=PLD15D38DC7AA3B737",
+                "description": "Youtube course from Oregeon."
+            }
+        ]
     }
 }

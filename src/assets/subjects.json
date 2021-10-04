@@ -58,13 +58,72 @@
             { "id": "Intro to Neural Computation", "elective": true },
             { "id": "Battlecode", "elective": true },
             { "id": "Weblab", "elective": true },
-            { "id": "Statistics", "elective": true }
+            { "id": "Statistics", "elective": true },
+            { "id": "Machine Learning in Healthcare", "elective": true },
+            { "id": "Cryptocurrency Engineering and Design", "elective": true }
         ]
     },
     {
         "id": "Economics",
         "courses": [
-            { "id": "Intro to Microeconomics", "elective": false }
+            { "id": "Probability", "elective": false },
+            { "id": "Single Variable Calculus", "elective": false },
+            { "id": "Intro to Microeconomics", "elective": false },
+            { "id": "Intro to Macroeconomics", "elective": false },
+            { "id": "Behavioral Economics", "elective": true },
+            { "id": "Energy Decisions, Markets, and Policies", "elective": true },
+            { "id": "The Challenge of World Poverty", "elective": true },
+            { "id": "Development Economics", "elective": true },
+            { "id": "Intro to Game Theory", "elective": true },
+            { "id": "Financial Economics", "elective": true },
+            { "id": "Financial Markets", "elective": true },
+            { "id": "Blockchain and Money", "elective": true },
+            { "id": "Public Economics", "elective": true },
+            { "id": "Using Big Data to Solve Economic and Social Problems", "elective": true },
+            { "id": "Sports and Entertainment Economics", "elective": true },
+            { "id": "Healthcare Economics", "elective": true },
+            { "id": "Marxian Economics", "elective": true },
+            { "id": "Intermediate Macroeconomics", "elective": false },
+            { "id": "Intermediate Microeconomics", "elective": false },
+            { "id": "International Economics", "elective": true },
+            { "id": "Intro to Econometrics", "elective": false },
+            { "id": "Contending Perspectives in Economics", "elective": true },
+            { "id": "Capitalism: Success, Crisis and Reform", "elective": true },
+            { "id": "Intro to Advanced Macroeconomic Analysis", "elective": true },
+            { "id": "Labor Markets and Search Frictions", "elective": true },
+            { "id": "European Integration", "elective": true },
+            { "id": "Shaping the Future of Work", "elective": true },
+            { "id": "Global Problems of Population Growth", "elective": true },
+            { "id": "Topics Seminar", "elective": true },
+            { "id": "Math for Economics", "elective": true },
+            { "id": "American Economic History", "elective": true },
+            { "id": "Case studies in Economic Development", "elective": true },
+            { "id": "Intro to Political Economy", "elective": true },
+            { "id": "Econometrics", "elective": true }
+        ]
+    },
+    {
+        "id": "Physics",
+        "courses": [
+            { "id": "Single Variable Calculus", "elective": false },
+            { "id": "Multivariable Calculus", "elective": false },
+            { "id": "Linear Algebra", "elective": false },
+            { "id": "Differential Equations", "elective": false },
+            { "id": "Physics I", "elective": false },
+            { "id": "Physics II", "elective": false },
+            { "id": "Physics III", "elective": false },
+            { "id": "General Relativity", "elective": true },
+            { "id": "Quantum Physics I", "elective": false },
+            { "id": "Quantum Physics II", "elective": false },
+            { "id": "Quantum Physics III", "elective": false },
+            { "id": "The Early Universe", "elective": false },
+            { "id": "Statistical Mechanics I", "elective": false },
+            { "id": "Statistical Mechanics II", "elective": false },
+            { "id": "Quantum Computation I", "elective": false },
+            { "id": "Quantum Computation II", "elective": false },
+            { "id": "Atomic and Optical Physics I", "elective": false },
+            { "id": "Atomic and Optical Physics II", "elective": false },
+            { "id": "Intro to Nuclear and Particle Physics", "elective": false }
         ]
     }
 ]
