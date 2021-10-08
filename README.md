@@ -1,6 +1,4 @@
-# collecobrary  https://github.com/nietsymerej/collecobrary
-
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Make%learning%fun%and%easy&url=https://github.com/nietsymerej/collecobrary&hashtags=github,education,vuejs,webdev,developers)
+# collecobrary [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Make%learning%fun%and%easy&url=https://github.com/nietsymerej/collecobrary&hashtags=github,education,vuejs,webdev,developers)
 
 ## The goal of this project is to make online learning easy and fun by presenting the best free online courses in an appealing and intuitive way.
 
