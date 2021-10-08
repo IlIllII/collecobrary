@@ -2,7 +2,7 @@
 
 ## The goal of this project is to make online learning easy and fun by presenting the best free online courses in an appealing and intuitive way.
 
-This project is very much in its infancy. As such, it could really use your help and input. Below you can preview the current iteration of the project, or visit the [website](https://curated-courses.herokuapp.com/):
+This project is very much in its infancy. As such, it could really use your help and input. Below you can preview the current iteration, or visit the [website](https://curated-courses.herokuapp.com/) and poke around:
 
 #### Home Page
 
