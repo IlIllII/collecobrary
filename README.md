@@ -17,7 +17,7 @@ Below you can preview the current iteration of the project, or visit the [websit
 ![collecobrary_node_hover_and_dblclick](https://user-images.githubusercontent.com/78166995/134691867-8195d604-d28e-43b7-8476-bb21f9ce4f39.PNG)
 
 
-The idea for this project spawned from my own frustration with the current online learning landscape. It can be very challenging to find and organize quality materials. If you want to help, there are a few things that would really make an impact:
+The idea for this project spawned from my own frustration with the current online learning landscape. It can be very challenging to find and organize quality materials. If you want to help make something better, here are a few things that would really make an impact!
 
 1. Have a good idea for how the project can be better? Please share it!
 2. Know of an excellent online course? Please share it!
@@ -26,34 +26,5 @@ The idea for this project spawned from my own frustration with the current onlin
 5. Do you think you can help in a way I haven't thought of? Please share your idea!
 
 
-You can either contact me on github to help informally, otherwise I will offer more guidance in CONTRIBUTING.md
 
-***
-
-## Project setup
-
-To run the code locally, just clone the repo and install the dependencies:
-
-```
-npm install
-```
-
-Then run one of the following, depending on your needs:
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Feel free to say hello and ask if you have any questions or comments. If you do want to help, head on over to CONTRIBUTING.md to see what you can do.
