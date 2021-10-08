@@ -23,6 +23,6 @@ The idea for this project spawned from my own frustration with the current onlin
 2. Know of an excellent online course? Please share it!
 3. You can code? Help code new features or clean up the codebase!
 4. You think this project is cool? Share it with friends!
-5. Do you think you can help in a way I haven't thought of? Please share your idea!
+5. Do you think you can help in another way? Please share your idea!
 
 Feel free to say hello and ask if you have any questions or comments. If you do want to help, head on over to CONTRIBUTING.md to see more details about the project.
