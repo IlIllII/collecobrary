@@ -1,14 +1,8 @@
-# collecobrary [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Make%20learning%20fun%20and%20easy&url=https://github.com/nietsymerej/collecobrary&via=collecobrary&hashtags=github,education,vuejs,webdev,developers)
+# [collecobrary](https://curated-courses.herokuapp.com/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Make%20learning%20fun%20and%20easy&url=https://github.com/nietsymerej/collecobrary&via=collecobrary&hashtags=github,education,vuejs,webdev,developers)
 
-## The goal of this project is to make online learning easy and fun by presenting the best free online courses in an appealing and intuitive way.
+### The goal of this project is to make online learning easy and fun by presenting the best free online courses in an appealing and intuitive way.
 
-<iframe href="https://curated-courses.herokuapp.com/">
-  
-</iframe>
-
-
-
-[This project](https://curated-courses.herokuapp.com/) is very much in its infancy. As such, it could really use your help and input. Below you can preview the current iteration:
+It is very much in its infancy. As such, it could really use your help and input. Below you can preview the current iteration:
 
 #### Home Page
 
