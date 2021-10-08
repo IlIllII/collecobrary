@@ -19,4 +19,4 @@ The idea for this project spawned from my own frustration with the current onlin
 4. You think this project is cool? Share it with friends!
 5. Do you think you can help in another way? Please share your idea!
 
-Feel free to say hello and ask if you have any questions or comments. If you do want to help, head on over to CONTRIBUTING.md to see more details about the project.
+Feel free to say hello and ask if you have any questions or comments. If you do want to help, head on over to [CONTRIBUTING.md](https://github.com/nietsymerej/collecobrary/blob/master/CONTRIBUTING.md) to see more details about the project.
