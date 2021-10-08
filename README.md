@@ -2,6 +2,10 @@
 
 ## The goal of this project is to make online learning easy and fun by presenting the best free online courses in an appealing and intuitive way.
 
+<iframe href="https://curated-courses.herokuapp.com/">
+  
+</iframe>
+
 
 
 [This project](https://curated-courses.herokuapp.com/) is very much in its infancy. As such, it could really use your help and input. Below you can preview the current iteration:
