@@ -1,46 +1,44 @@
 # collecobrary
 
-**Version 2.0 of a website presenting college degree roadmaps.**
+## The goal of this project is to make online learning easy and fun. We can do this by presenting the best free online courses in an appealing and intuitive way.
 
-The idea of this project is to present a collection of college courses sourced from OCW and university course webpages.
+Below you can preview the current iteration of the project, or visit the [website](https://curated-courses.herokuapp.com/):
 
-This repo is mostly geared toward the visualization aspects of the project. I made the curricula digraph visualization using d3. My previous repo, curated-courses, contains other content of the website that I may include in a third version once I figure out how I want the graph itself to look.
-
-## Current Features
-
-The landing page, shown below, is comprised of a list of subject areas, with each subject being a button that, when pressed, generates a digraph depicting the curriculum. The buttons are automatically generated from the data files. This is an improvement from the previous version of the project where the buttons were hardcoded.
+#### Home Page
 
 ![collecobrary_landing_page](https://user-images.githubusercontent.com/78166995/134688002-efaaefe0-bb3d-48cb-95e9-4b7bc75737b0.PNG)
 
-Next, is the curriculum digraph itself. It is made using d3. Its basically a force directed graph where physical forces act on each node and edge to control the appearance of the graph, with only the topology being defined by the data. This is an improvement from the previous version, since now you don't have to determine x and y coordinates for each course, although the graph can get convoluted as interconnections grow. One solution to this is to prune redundant edges, though sometimes high interconnectivity cannot be avoided if a course has many prereqs. Thoughtful curriculum design may be a workaround.
-
-Additionally, right now the category colors for the legend are randomly generated. I think that it would be better if I hardcoded a color for each category so then users can easily intuit which courses are which since I don't have labels on the nodes, but as categories grow I might run out of easily distinguishable colors. Randomness makes it easier from a design perspective, but may not be as user friendly.
+#### Course digraph
 
 ![collecobrary_course_digraph](https://user-images.githubusercontent.com/78166995/134689102-3f8a7a37-615b-4f93-8181-24e9717dc839.PNG)
 
-Finally, when you hover over a node, a tooltip reveals the name of the course and parent and child prereqs change their coloring. If you double click a node, a description and link to the course appears.
+#### Interactivity
 
 ![collecobrary_node_hover_and_dblclick](https://user-images.githubusercontent.com/78166995/134691867-8195d604-d28e-43b7-8476-bb21f9ce4f39.PNG)
 
-These features are alright, but there are still some tweaks I am thinking about. These include:
 
-- Displaying course titles when cursor is in the neighborhood of a course rather than directly on hover. This would allow users to more quickly explore the graph.
-- Somehow highlight starting courses, perhaps by bolding their outlines or making the edges of the graph thicker. This would help visualize the flow of the graph. Since it is acyclic, there is a definite direction that is hard to grasp in the current design.
-- It would be useful if there was a sidebar you could scroll to look at all of the courses, sorted by chronological order or network hops from a starting node. This sidebar would interface with course hovering to make the structure of the degree roadmap mopre obvious.
-- Finally, it may be benficial to have an about section for each graph, explaining curriculum choices and why the courses are arranged the way that they are, but I am still unsure of where to put this navigation-wise. Perhaps I can link it in the legend.
+The idea for this project spawned from my own frustration with the current online learning landscape. It can be very challenging to find and organize quality materials. If you want to help, there are a few things that would really make an impact:
 
-## Final Thoughts
+1. Have a good idea for how the project can be better? Please share it!
+2. Know of an excellent online course? Please share it!
+3. You can code? Help code new features or clean up the codebase!
+4. You think this project is cool? Share it with friends!
+5. Do you think you can help in a way I haven't thought of? Please share your idea!
 
-Sourcing courses is still an unsolved problem. I had manually compiled a dataset in 2019 of over 1000 courses sourced from OCW, university YouTube channels, and individual course websites made public by professors, but two years later in 2021 over 25% of them were no longer available. OCW was not a problem, but then these courses go out of date with each passing year. YouTube and course websites presented a different problem, because they were not as stable and many of them got removed, moved, or updated to no longer be public.
 
-If anyone has ideas for how to sustainably source the content I would love to hear from you.
+You can either contact me on github to help informally, otherwise I will offer more guidance in CONTRIBUTING.md
 
 ***
 
 ## Project setup
+
+To run the code locally, just clone the repo and install the dependencies:
+
 ```
 npm install
 ```
+
+Then run one of the following, depending on your needs:
 
 ### Compiles and hot-reloads for development
 ```
