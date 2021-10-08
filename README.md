@@ -20,3 +20,10 @@ The idea for this project spawned from my own frustration with the current onlin
 5. Do you think you can help in another way? Please share your idea!
 
 Feel free to say hello and ask if you have any questions or comments. If you do want to help, head on over to [CONTRIBUTING.md](https://github.com/nietsymerej/collecobrary/blob/master/CONTRIBUTING.md) to see more details about the project.
+
+
+## Currently on my to-do list
+
+1. Update README.md
+2. Make a CONTRIBUTING.md
+4. Refactor digraph code into separate script
