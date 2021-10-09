@@ -1,50 +1,67 @@
-# [collecobrary](https://curated-courses.herokuapp.com/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Make%20learning%20fun%20and%20easy&url=https://github.com/nietsymerej/collecobrary&hashtags=github,education,vuejs,webdev,developers)
+<h1 align="center">
+  <br>
+  📚
+  <br>
+  <a href="https://curated-courses.herokuapp.com/">Collecobrary</a>
+  <br>
+</h1>
 
-[![Vue](https://img.shields.io/badge/vue-%5E3.0.0-informational)](https://github.com/vuejs/vue)
-[![d3](https://img.shields.io/badge/d3-%5E7.0.3-informational)](https://github.com/d3/d3)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/nietsymerej/collecobrary/blob/master/LICENSE)
-[![](https://img.shields.io/github/last-commit/nietsymerej/collecobrary)](https://github.com/nietsymerej/collecobrary)
+<h4 align="center">College | Course | Library</h4>
 
-**The goal of this project is to make online learning easy and fun by presenting the best free online courses in an appealing and intuitive way.**
+<p align="center">
+  <a href="https://twitter.com/intent/tweet?text=Make%20learning%20fun%20and%20easy&url=https://github.com/nietsymerej/collecobrary&hashtags=github,education,vuejs,webdev,developers">
+    <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social"></img>
+  </a>
+  <a href="https://github.com/nietsymerej/collecobrary">
+    <img src="https://img.shields.io/github/last-commit/nietsymerej/collecobrary"></img>
+  </a>
+</p>
 
-It is very much in its infancy. As such, it could really use your help and input.
+<p align="center">
+  <a href="#learn">Learn</a> • 
+  <a href="#quickstart">Quickstart</a> • 
+  <a href="#contributing">Contribute</a> • 
+  <a href="#about">About</a> • 
+  <a href="#resources">Resources</a>
+</p>
 
-Currently it's basically a dataset of courses that have been curated and organized and then a data visualization built on top of it. You can see below for basic functionality or visit the website.
+<h4 align="center">MOOCs suck, OCW's outdated, and microcredentials are predatory.</h4>
 
-## If you are here to learn
+<p align="center">
+  We are making degree roadmaps comprised of 100% free, high quality online courses for self-study.
+  <br>
+  It is very much in its infancy. As such, it could really use your help and input.
+</p>
 
-Visit the [website](https://curated-courses.herokuapp.com/) to get started.
-
-## If you want to help
-
-If you are ready to start, check out [Contributing.md](https://github.com/nietsymerej/collecobrary/blob/master/CONTRIBUTING.md), otherwise read on.
 
 ![collecobrary_node_hover_and_dblclick](https://user-images.githubusercontent.com/78166995/134691867-8195d604-d28e-43b7-8476-bb21f9ce4f39.PNG)
 
-## Table of Contents
-
-- [About](#about)
-- [Quickstart](#quickstart)
-- [Contributing](#contributing)
+***
+<br>
 
 
-## About
 
-The idea for this project spawned from my own frustration with the current online learning landscape. As [Reich and Ruipérez-Valiente](https://www.umt.edu/provost/docs/MOOC-pivot.pdf) point out, some online education platforms have massive audiences, which signals that there is quite a demand for online education. Yet, according to the article, user retention rates are ultra low.
 
-![science-screenshot](https://user-images.githubusercontent.com/78166995/136632980-cdc27747-8ab8-4fdb-9d21-62d2c7564406.PNG)
+<h2 id="learn"> 📖 If you're here to learn</h2>
 
-According to my own research, this is because MOOCs are shit, as are many other resources. Detailing all of the ways in which every platform is lacking would take ages, but at a high level I have 3 criticisms:
+### Visit the [website](https://curated-courses.herokuapp.com/) to get started. No signup, no fees, no bullshit.
 
-### Three problems this project aims to solve
+If you like the project, giving a :star: on GitHub really helps!
 
-1. **Poor quality.** Many platforms have high variability when it comes to course quality, and many courses designed for online learners are significantly dumbed down.
-2. **Too many choices.** Some platforms provide thousands of courses. We don't need 100 different Calc I courses; the top three will suffice.
-3. **No structure or progression.** It is hard to know what you don't know, and many platforms don't lay out equivalencies, prerequisites, or roadmaps guiding students through broad subject, making it difficult to come up with a study plan.
+If you *really* like the project, share it on social media to spread the word!
 
-While some existing products contain one or two of these elements, none has all three. The goal of this project is to create a free resource that satisfies this trilemma. I have made a start, but with a little help it could be so much better.
+If you *love* the project, consider contributing to help make it better!
 
-## Quickstart
+If you *hate* the project, consider contributing to help make it not so bad!
+
+***
+<br>
+
+
+
+
+<h2 id="quickstart">⚡ Quickstart</h2>
+
 
 If it is your first time contributing, you might want to see [contributing](#contributing) to get a sense of the project first before starting.
 
@@ -76,18 +93,80 @@ npm run lint
 
 Once everything checks out locally, you can merge your pull request with the master to redeploy the live website. We can set up a test server later if we need to.
 
-## Contributing
 
-If you want to help contribute, here are a few things that would really make an impact:
+***
+<br>
 
-1. Have a good idea for how the project can be better? Please share it!
-2. Know of an excellent online course? Please share it!
+
+
+
+<h2 id="contributing">💪 Contributing</h2>
+
+If you want to help contribute, thank you! Here are a few things that would really make an impact:
+
+1. Know of an excellent online course? Please share it!
+2. Have a good idea for how the project can be better? Please share it!
 3. You can code? Help code new features or clean up the codebase!
 4. You think this project is cool? Share it with friends!
 5. Do you think you can help in another way? Please share your idea!
 
 
 Feel free to say hello and ask if you have any questions or comments. All feedback is welcome and encouraged. If you decide to help, check out [CONTRIBUTING.md](https://github.com/nietsymerej/collecobrary/blob/master/CONTRIBUTING.md) to see more details about the project.
+
+
+***
+<br>
+
+
+
+
+
+<h2 id="about">💡 About</h2>
+
+The idea for this project spawned from my own frustration with the current online learning landscape. As [Reich and Ruipérez-Valiente](https://www.umt.edu/provost/docs/MOOC-pivot.pdf) point out, some online education platforms have massive audiences, which signals that there is quite a demand for online education. Yet, according to the article, user retention rates are ultra low.
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/78166995/136632980-cdc27747-8ab8-4fdb-9d21-62d2c7564406.PNG"></img>
+</div>
+
+According to my own research, this is because MOOCs are shit, as are many other resources. Detailing all of the ways in which every platform is lacking would take ages, but at a high level I have 3 criticisms:
+
+### Three problems this project aims to solve
+
+1. **Poor quality.** Many platforms have high variability when it comes to course quality, and many courses designed for online learners are significantly dumbed down.
+2. **Too many choices.** Some platforms provide thousands of courses. We don't need 100 different Calc I courses; the top three will suffice.
+3. **No structure or progression.** It is hard to know what you don't know, and many platforms don't lay out equivalencies, prerequisites, or roadmaps guiding students through broad subject, making it difficult to come up with a study plan.
+
+While some existing products contain one or two of these elements, none has all three. The goal of this project is to create a free resource that satisfies this trilemma. I have made a start, but with a little help it could be so much better.
+
+***
+<br>
+
+
+
+
+
+<h2 id="resources">🧭 Resources</h2>
+
+Some other learning resources you might like:
+
+- [Awesome Courses](https://github.com/prakhar1989/awesome-courses)
+- [Awesome Roadmaps](https://github.com/liuchong/awesome-roadmaps/blob/master/README.md)
+- [Outlier.org](https://outlier.org) - Top notch paid online courses for degree credits
+
+<br>
+
+If you are trying to find good courses, here are some places to look:
+
+- OCW - A lot of OCW is pretty old and incomplete, but MIT, Yale, and UCI seem to have pretty good OCW still.
+- Youtube Channels - a lot of universities and professors post lectures on youtube. Stanford is a good example.
+- Berkeley Webcasts - massive archive of lecture recordings from before 2015 when they stopped doing them.
+- University departments - often you can find course websites online and some of them may have complete materials. Additionally, sometimes professors will post their courses on their personal websites, particularly if the course is high quality.
+
+Generally I have found that the MOOCs and other "learning platforms" have courses that are pretty poor quality, but this is just one man's opinion.
+
+Good luck!
+
 
 
 ## Currently on my to-do list
