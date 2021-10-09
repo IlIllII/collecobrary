@@ -44,7 +44,7 @@
 
 <h2 id="learn"> 📖 If you're here to learn</h2>
 
-### Visit the [website](https://curated-courses.herokuapp.com/) to get started. No signup, no fees, no bullshit.
+### Visit the [website](https://curated-courses.herokuapp.com/) to get started. Its super easy to use and there is no sign up or anything.
 
 If you like the project, giving a :star: on GitHub really helps!
 
