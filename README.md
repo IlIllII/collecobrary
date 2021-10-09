@@ -9,6 +9,8 @@
 
 It is very much in its infancy. As such, it could really use your help and input.
 
+Currently it's basically a dataset of courses that have been curated and organized and then a data visualization built on top of it. You can see below for basic functionality or visit the website.
+
 ![collecobrary_node_hover_and_dblclick](https://user-images.githubusercontent.com/78166995/134691867-8195d604-d28e-43b7-8476-bb21f9ce4f39.PNG)
 
 ## Table of Contents
