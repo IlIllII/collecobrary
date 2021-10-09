@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping! Here you will find everything you need to know to get started with the project. More coming soon^(TM).
+Thanks for helping! Here you will find everything you need to know to get started with the project. More coming soon^(TM) if I get anyone to help me.
 
 
 
