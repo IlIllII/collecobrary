@@ -148,20 +148,12 @@ While some existing products contain one or two of these elements, none has all 
 
 <h2 id="resources">🧭 Resources</h2>
 
-Some other learning resources you might like:
-
-- [Awesome Courses](https://github.com/prakhar1989/awesome-courses)
-- [Awesome Roadmaps](https://github.com/liuchong/awesome-roadmaps/blob/master/README.md)
-- [Outlier.org](https://outlier.org) - Top notch paid online courses for degree credits
-
-<br>
-
 If you are trying to find good courses, here are some places to look:
 
-- OCW - A lot of OCW is pretty old and incomplete, but MIT, Yale, and UCI seem to have pretty good OCW still.
-- Youtube Channels - a lot of universities and professors post lectures on youtube. Stanford is a good example.
-- Berkeley Webcasts - massive archive of lecture recordings from before 2015 when they stopped doing them.
-- University departments - often you can find course websites online and some of them may have complete materials. Additionally, sometimes professors will post their courses on their personal websites, particularly if the course is high quality.
+- OCW - A lot of OCW is pretty old and incomplete, but [MIT](https://ocw.mit.edu/index.htm), [Yale](https://oyc.yale.edu/courses), and [UCI](http://ocw.uci.edu/) seem to have pretty good OCW still.
+- Youtube Channels - A lot of universities and professors post lectures on youtube. [Stanford](https://www.youtube.com/c/stanford/playlists) is a good example.
+- [Berkeley Webcasts](https://wiki.archiveteam.org/index.php/UC_Berkeley_Course_Captures) - Massive archive of lecture recordings from before 2017 when they stopped doing them.
+- University departments - Often you can find course websites online and some of them may have complete materials, such as [Kellis Lab at MIT](http://compbio.mit.edu/compbio.html). Additionally, sometimes professors will post their courses on their personal websites, particularly if the course is high quality.
 
 Generally I have found that the MOOCs and other "learning platforms" have courses that are pretty poor quality, but this is just one man's opinion.
 
@@ -171,5 +163,5 @@ Good luck!
 
 ## Currently on my to-do list
 
-2. Make a CONTRIBUTING.md
-4. Refactor digraph code into separate script
+1. Make a CONTRIBUTING.md
+2. Refactor digraph code into separate script
