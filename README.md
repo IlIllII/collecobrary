@@ -164,4 +164,3 @@ Good luck!
 ## Currently on my to-do list
 
 1. Make a CONTRIBUTING.md
-2. Refactor digraph code into separate script
