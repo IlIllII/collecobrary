@@ -309,6 +309,18 @@
                 "institution": "University of Buffalo",
                 "url": "https://ops-class.org/",
                 "description": "This course is adapted from Harvard's operating systems course that Mark Zuckerberg dropped out of to start Facebook. It is really high quality and has all materials available online."
+            },
+            {
+                "index": 1,
+                "institution": "MIT",
+                "url": "https://pdos.csail.mit.edu/6.828/",
+                "description": "This is a fully featured course from MIT."
+            },
+            {
+                "index": 2,
+                "institution": "Madison",
+                "url": "https://pages.cs.wisc.edu/~remzi/Classes/537/",
+                "description": "This is an operating systems course from Madison, Wisconsin. It uses a great textbook titled 'Three Easy Steps'."
             }
         ]
     },
@@ -641,6 +653,12 @@
                 "institution": "MIT",
                 "url": "https://www.youtube.com/playlist?list=PL6ogFv-ieghe8MOIcpD6UDtdK-UMHG8oH",
                 "description": "You will have to find the course website for homework materials."
+            },
+            {
+                "index": 1,
+                "institution": "Ruhr",
+                "url": "https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg/videos",
+                "description": "This YouTube channel has all the course lectures, and accompanying materials can be found in the txtbook in the channel's description."
             }
         ]
     },
