@@ -135,7 +135,7 @@ According to my own research, this is because MOOCs are shit, as are many other 
 
 1. **Poor quality.** Many platforms have high variability when it comes to course quality, and many courses designed for online learners are significantly dumbed down.
 2. **Too many choices.** Some platforms provide thousands of courses. We don't need 100 different Calc I courses; the top three will suffice.
-3. **No structure or progression.** It is hard to know what you don't know, and many platforms don't lay out equivalencies, prerequisites, or roadmaps guiding students through broad subject, making it difficult to come up with a study plan.
+3. **No structure or progression.** It is hard to know what you don't know, and many platforms don't lay out equivalencies, prerequisites, or roadmaps guiding students through broad subjects, making it difficult to come up with a study plan.
 
 While some existing products contain one or two of these elements, none has all three. The goal of this project is to create a free resource that satisfies this trilemma. I have made a start, but with a little help it could be so much better.
 
