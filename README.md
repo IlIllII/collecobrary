@@ -49,13 +49,13 @@
 
 ### Visit the [website](https://curated-courses.herokuapp.com/) to get started. Its super easy to use and there is no sign up or anything.
 
-If you like the project, giving a :star: on GitHub really helps!
+If you like the project, giving a :star: on GitHub really helps.
 
 If you *really* like the project, share it on social media to spread the word!
 
 If you *love* the project, consider contributing to help make it better!
 
-If you *hate* the project, consider contributing to help make it not so bad!
+If you *hate* the project, consider contributing to help make it not so bad.
 
 ***
 <br>
