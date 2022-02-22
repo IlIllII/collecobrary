@@ -6,9 +6,12 @@
   <br>
 </h1>
 
+
+
 <h4 align="center">College | Course | Library</h4>
 
 <p align="center">
+  <a href="https://discord.gg/fbbYhvkaBx"><img alt="Discord" src="https://img.shields.io/discord/945465327494512701?logo=discord"></a>
   <a href="https://twitter.com/intent/tweet?text=Make%20learning%20fun%20and%20easy&url=https://github.com/nietsymerej/collecobrary&hashtags=github,education,vuejs,webdev,developers">
     <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social"></img>
   </a>
