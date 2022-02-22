@@ -92,7 +92,7 @@
     {"id": "International Economics", "group": "Macroeconomics", "elective": false, "prereqs": [], "prereqFor": []},
     {"id": "Intro to Econometrics", "group": "Econometrics", "elective": false, "prereqs": [], "prereqFor": []},
     {"id": "Contending Perspectives in Economics", "group": "Economics Elective", "elective": false, "prereqs": [], "prereqFor": []},
-    {"id": "Capitalism: Success, Crisis and Reform", "group": "Economics Elective", "elective": false, "prereqs": [], "prereqFor": []},
+    {"id": "Capitalism - Success, Crisis and Reform", "group": "Economics Elective", "elective": false, "prereqs": [], "prereqFor": []},
     {"id": "Intro to Advanced Macroeconomic Analysis", "group": "Economics Elective", "elective": false, "prereqs": [], "prereqFor": []},
     {"id": "Labor Markets and Search Frictions", "group": "Economics Elective", "elective": false, "prereqs": [], "prereqFor": []},
     {"id": "European Integration", "group": "Economics Elective", "elective": false, "prereqs": [], "prereqFor": []},
