@@ -53,6 +53,15 @@
           :descriptions="descriptions"
         />
       </div>
+      <div>
+        <course-list
+          :subject="subject"
+          :courses="nodes"
+          :colormap="colorMapping"
+          @highlight-course="highlightHandler"
+          @click-course="clickHandler"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -60,11 +69,50 @@
 <script>
 import * as d3 from "d3";
 import CourseDescription from "./CourseDescription.vue";
+import CourseList from "./CourseList.vue";
 
 let hovering = false;
+let descriptionShowing = false;
+
+function color(d, colorMapping) {
+  // console.log("Node to be colored");
+  // console.log(d);
+  // console.log(colorMapping);
+  return colorMapping[d.group];
+}
+
+function focusParents(parents, colorMapping) {
+  for (let name of parents) {
+    let parent = d3
+      .select(`#${name.replace(/\s/g, "-")}`)
+      .attr("fill", (d) => color(d, colorMapping));
+    let prereqs = parent.data()[0].prereqs;
+    if (prereqs.length != 0) {
+      focusParents(prereqs, colorMapping);
+    }
+  }
+}
+
+function focusChildren(children) {
+  for (let name of children) {
+    let child = d3
+      .select(`#${name.replace(/\s/g, "-")}`)
+      .attr("fill", (d) => colorChildren(d));
+    if (child.data()[0] != null) {
+      let prereqFor = child.data()[0].prereqFor;
+      if (prereqFor.length != 0) {
+        focusChildren(prereqFor);
+      }
+    }
+  }
+}
+
+function colorChildren() {
+  return "gray";
+}
 
 export default {
-  components: { CourseDescription },
+  components: { CourseDescription, CourseList },
   props: ["propNodes", "propLinks", "subject", "descriptions"],
   data() {
     return {
@@ -73,6 +121,7 @@ export default {
       highlightedCourse: "",
       showLegend: true,
       colorMapping: {},
+      descriptionShowing: false,
     };
   },
   mounted() {
@@ -122,8 +171,7 @@ export default {
       return colorMapping[d.group];
     }
 
-    function colorChildren(d) {
-      console.log(d);
+    function colorChildren() {
       return "gray";
     }
 
@@ -220,6 +268,12 @@ export default {
 
       node.on("dblclick", (e, d) => {
         updateDescription(nodes[d.index].id);
+        d3.selectAll("circle").attr("fill", "white");
+        d3.select(`#${d.id.replace(/\s/g, "-")}`).attr("fill", (d) => color(d));
+        focusParents(d.prereqs, colorMapping);
+        focusChildren(d.prereqFor);
+        hovering = true;
+        descriptionShowing = true;
       });
 
       node.on("mouseover", (e, d) => {
@@ -240,24 +294,32 @@ export default {
             let child = d3
               .select(`#${name.replace(/\s/g, "-")}`)
               .attr("fill", (d) => colorChildren(d));
-            let prereqFor = child.data()[0].prereqFor;
-            if (prereqFor.length != 0) {
-              focusChildren(prereqFor);
+            if (child.data()[0] != null) {
+              let prereqFor = child.data()[0].prereqFor;
+              if (prereqFor.length != 0) {
+                focusChildren(prereqFor);
+              }
             }
           }
         }
 
         // Color children and parent nodes
-        d3.selectAll("circle").attr("fill", "white");
-        d3.select(`#${d.id.replace(/\s/g, "-")}`).attr("fill", (d) => color(d));
-        focusParents(d.prereqs);
-        focusChildren(d.prereqFor);
-        hovering = true;
+        if (descriptionShowing == false) {
+          d3.selectAll("circle").attr("fill", "white");
+          d3.select(`#${d.id.replace(/\s/g, "-")}`).attr("fill", (d) =>
+            color(d)
+          );
+          focusParents(d.prereqs);
+          focusChildren(d.prereqFor);
+          hovering = true;
+        }
       });
 
       node.on("mouseout", () => {
-        d3.selectAll("circle").attr("fill", (d) => color(d)); // Reset colors
         hovering = false;
+        if (descriptionShowing == false) {
+          d3.selectAll("circle").attr("fill", (d) => color(d)); // Reset colors
+        }
       });
 
       simulation.on("tick", () => {
@@ -268,6 +330,8 @@ export default {
       svg.on("click", () => {
         if (hovering == false) {
           updateDescription("");
+          descriptionShowing = false;
+          d3.selectAll("circle").attr("fill", (d) => color(d)); // Reset colors
         }
       });
 
@@ -306,14 +370,47 @@ export default {
       .querySelector("div.chart")
       .appendChild(chart(this.links, this.nodes));
   },
+  methods: {
+    clickHandler(course) {
+      let updateDescription = (name) => {
+        this.highlightedCourse = name;
+      };
+
+      let colorMap = this.colorMapping;
+
+      updateDescription(course.id);
+      d3.selectAll("circle").attr("fill", "white");
+      d3.select(`#${course.id.replace(/\s/g, "-")}`).attr("fill", (d) =>
+        color(d, colorMap)
+      );
+      focusParents(course.prereqs, colorMap);
+      focusChildren(course.prereqFor);
+      // hovering = true;
+      descriptionShowing = true;
+    },
+    highlightHandler(course) {
+      if (!descriptionShowing) {
+        let colorMap = this.colorMapping;
+        d3.selectAll("circle").attr("fill", "white");
+        d3.select(`#${course.id.replace(/\s/g, "-")}`).attr("fill", (d) =>
+          color(d, colorMap)
+        );
+        focusParents(course.prereqs, colorMap);
+        focusChildren(course.prereqFor);
+        hovering = true;
+      }
+
+    },
+  },
 };
 </script>
 
 <style scoped>
 .description {
   position: fixed;
-  left: 10px;
+  left: 250px;
   top: 100px;
+  /* bottom: 100px; */
 }
 
 .legend {
@@ -327,6 +424,7 @@ export default {
   border-radius: 15px;
   padding: 10px;
   text-align: left;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .legend h3 {

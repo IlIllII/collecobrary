@@ -21,4 +21,22 @@ export default {
   color: #2c3e50;
   text-align: center;
 }
+
+/* *::-webkit-scrollbar {
+  width: 0;
+}
+
+* {
+  scrollbar-width: none;
+} */
+
+a {
+  color: #54789c;
+}
+
+a:hover {
+  color: #2c3e50;
+}
+
+
 </style>
