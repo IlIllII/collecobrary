@@ -9,8 +9,8 @@ from urllib import request
 USER_AGENT = "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7"
 HEADERS = {"User-Agent": USER_AGENT}
 PATH_TO_DESCRIPTIONS = "../src/assets/descriptions.json"
-OBEY_SPEED_LIMIT = True  # Whether we sleep to avoid rate limiting.
-SLEEP_DURATION = 0.01  # *This value is arbitrary right now.
+AVOID_RATE_LIMITER = True
+SLEEP_DURATION = 0.01  # *This value was chosen arbitrarily - it may be too high or too low.
 PROGRESS_BAR_WIDTH = 30
 
 
@@ -50,7 +50,7 @@ def visit_urls(course_descriptions, verbose=True) -> dict:
             success = False
 
             try:
-                if OBEY_SPEED_LIMIT:
+                if AVOID_RATE_LIMITER:
                     time.sleep(SLEEP_DURATION)
 
                 req = request.Request(course["url"], None, HEADERS)
