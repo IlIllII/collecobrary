@@ -43,9 +43,6 @@ import masterLinks from "@/assets/masterLinks.json";
 import descriptions from "@/assets/descriptions.json";
 import DegreeMap from "@/components/DegreeMap.vue";
 
-// console.log(masterNodes);
-// console.log(masterLinks);
-// console.log(descriptions);
 
 // Alphabetically sort subjects for display
 let sortedSubjects = subjects.sort((a, b) => a.id.localeCompare(b.id));
