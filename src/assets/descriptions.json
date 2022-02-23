@@ -1144,12 +1144,12 @@
                 "index": 1,
                 "institution": "U of Oregon",
                 "url": "https://www.youtube.com/playlist?list=PL7vNyVXxvcu-bvpdBR_jExrDl6ESioZ4b",
-                "description": "youtube course."
+                "description": "Youtube course."
             }
         ]
     },
     "Contending Perspectives in Economics": {
-        "description": "Course about different economic schools of thought..",
+        "description": "Course about different economic schools of thought.",
         "courses": [
             {
                 "index": 0,
@@ -1177,7 +1177,7 @@
                 "index": 0,
                 "institution": "Humboldt",
                 "url": "https://www.youtube.com/playlist?list=PLJZlW3ik4xixAhVnY0aaTrz72XCZsygEA",
-                "description": "youtube course."
+                "description": "Youtube course."
             }
         ]
     },
@@ -1270,7 +1270,7 @@
         ]
     },
     "Intro to Political Economy": {
-        "description": "Course looking introducing political economy.",
+        "description": "Course introducing political economy.",
         "courses": [
             {
                 "index": 0,
