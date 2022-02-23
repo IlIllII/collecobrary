@@ -1,29 +1,30 @@
+import json
 import sys
 import time
-import json
 from typing import List
 from urllib import request
 
-
-# Spoofing with randomly chosen user agent to circumnavigate bot defenses
+# Spoofing with randomly chosen user agent to circumnavigate bot defenses.
 USER_AGENT = "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7"
 HEADERS = {"User-Agent": USER_AGENT}
 PATH_TO_DESCRIPTIONS = "../src/assets/descriptions.json"
-OBEY_SPEED_LIMIT = True  # To avoid rate limiting
+OBEY_SPEED_LIMIT = True  # Whether we sleep to avoid rate limiting.
+SLEEP_DURATION = 0.01  # *This value is arbitrary right now.
+PROGRESS_BAR_WIDTH = 30
 
 
 def print_progress_bar(iteration: int, total: int) -> None:
-    bar_length = 30
+    bar_length = PROGRESS_BAR_WIDTH
     percent = f"{(int(100 * iteration / total)):d}"
     progress = int(bar_length * iteration // total)
-    bar = "=" * (progress - 1) + ">" + " " * (bar_length - progress)
+    offset_for_carrot = 1
+    bar = "=" * (progress - offset_for_carrot) + ">" + " " * (bar_length - progress)
     print(f"\r|{bar}| {percent}%", end="\r")
     sys.stdout.flush()
 
 
 def read_in_data() -> dict:
-    test_preface = "-----------------\nStarting URL Test"
-    print(test_preface)
+    print("-----------------\nStarting URL Test")
     with open(PATH_TO_DESCRIPTIONS) as f:
         course_descriptions: dict = json.load(f)
     return course_descriptions
@@ -49,7 +50,7 @@ def visit_urls(course_descriptions, verbose=True) -> dict:
 
             try:
                 if OBEY_SPEED_LIMIT:
-                    time.sleep(0.01)
+                    time.sleep(SLEEP_DURATION)
 
                 req = request.Request(course["url"], None, HEADERS)
                 res = request.urlopen(req)
@@ -59,7 +60,7 @@ def visit_urls(course_descriptions, verbose=True) -> dict:
 
             course_name = course["institution"] + "-" + key
             while course_name in results:
-                course_name += "-"  # Simple naming scheme to differentiate duplicates
+                course_name += "-"  # To differentiate duplicates.
 
             result = {
                 "title": course_name,
