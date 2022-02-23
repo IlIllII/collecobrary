@@ -166,4 +166,6 @@ Good luck!
 
 ## Currently on my to-do list
 
-1. Make a CONTRIBUTING.md
+1. Clean up home page
+2. Refactor code
+3. Write tests
