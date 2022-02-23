@@ -75,9 +75,6 @@ let hovering = false;
 let descriptionShowing = false;
 
 function color(d, colorMapping) {
-  // console.log("Node to be colored");
-  // console.log(d);
-  // console.log(colorMapping);
   return colorMapping[d.group];
 }
 
@@ -385,7 +382,6 @@ export default {
       );
       focusParents(course.prereqs, colorMap);
       focusChildren(course.prereqFor);
-      // hovering = true;
       descriptionShowing = true;
     },
     highlightHandler(course) {
@@ -409,7 +405,6 @@ export default {
   position: fixed;
   left: 250px;
   top: 100px;
-  /* bottom: 100px; */
 }
 
 .legend {
