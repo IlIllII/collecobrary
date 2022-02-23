@@ -20,14 +20,6 @@ export default {
   text-align: center;
 }
 
-/* *::-webkit-scrollbar {
-  width: 0;
-}
-
-* {
-  scrollbar-width: none;
-} */
-
 a {
   color: #54789c;
 }
