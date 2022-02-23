@@ -80,7 +80,7 @@ def print_broken_urls(failed, total) -> None:
         print("\nPASS: All URLs seem to be working.")
     else:
         print(f"\nFAIL: {len(failed)} out of {total} urls failed.")
-        
+
     for i, item in enumerate(failed):
         failure_string = f"    {i + 1}. {item['title']} - STATUS: {item['status']}"
         print(failure_string)
