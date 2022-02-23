@@ -6,19 +6,19 @@
         Say hi ❤ - <a href="https://discord.gg/fbbYhvkaBx">Discord</a> |
         <a href="https://github.com/IlIllII/collecobrary">Github</a>
       </h5>
-      <hr width=250>
+      <hr width="250" />
       <div>
         <h2>What would you like to learn?</h2>
         <div class="subject-container">
-            <div
+          <div
             class="subject-listing"
             v-for="subject in subjects"
             :key="subject"
             @click="createMap(subject.id)"
-            >
+          >
             <span>{{ subject.id }}</span>
-            </div>
-      </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="degree-map" v-if="!subjectSelect">

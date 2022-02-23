@@ -399,7 +399,6 @@ export default {
         focusChildren(course.prereqFor);
         hovering = true;
       }
-
     },
   },
 };
