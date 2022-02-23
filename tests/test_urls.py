@@ -5,7 +5,7 @@ from typing import List
 from urllib import request
 
 
-# Spoofing with randomly chosen user agent to circumnavigate bot defenses
+# Spoofing with randomly chosen user agent to circumnavigate robot defenses
 USER_AGENT = "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7"
 HEADERS = {"User-Agent": USER_AGENT}
 PATH_TO_DESCRIPTIONS = "../src/assets/descriptions.json"
