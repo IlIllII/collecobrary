@@ -1,9 +1,4 @@
 {
-    "": {
-        "institution": "",
-        "url": "",
-        "description": ""
-    },
     "Intro to Computer Science": {
         "description": "This course provides an introduction to computer science for students with little to no programming background. Broadly surveys a number of CS topic areas, covers several fundamental programming concepts, and introduces several programming languages. Students will leave with a general understanding of the field and enough knowledge to write simple programs.",
         "courses": [
