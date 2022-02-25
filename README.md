@@ -166,6 +166,6 @@ Good luck!
 
 ## Currently on my to-do list
 
-1. Clean up home page
-2. Refactor code
-3. Write tests
+1. Refactor code
+2. Write tests
+3. Add new courses
