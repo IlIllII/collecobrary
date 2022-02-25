@@ -169,3 +169,4 @@ Good luck!
 1. Refactor code
 2. Write tests
 3. Add new courses
+4. Get a proper domain name
