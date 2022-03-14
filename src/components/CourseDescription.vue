@@ -62,7 +62,7 @@ export default {
 <style scoped>
 .description {
   width: 300px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.9);
   border: 3px solid #2c3e50;
   border-radius: 15px;
   padding: 10px;
