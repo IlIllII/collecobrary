@@ -132,7 +132,7 @@ The idea for this project spawned from my own frustration with the current onlin
   <img src="https://user-images.githubusercontent.com/78166995/136632980-cdc27747-8ab8-4fdb-9d21-62d2c7564406.PNG"></img>
 </div>
 
-According to my own research, this is because MOOCs are shit, as are many other resources. Detailing all of the ways in which every platform is lacking would take ages, but at a high level I have 3 criticisms:
+According to my own research, this is because MOOCs are awful, as are many other resources. Detailing all of the ways in which every platform is lacking would take ages, but at a high level I have 3 criticisms:
 
 ### Three problems this project aims to solve
 
