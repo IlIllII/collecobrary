@@ -28,8 +28,6 @@
   <a href="#resources">Resources</a>
 </p>
 
-<h4 align="center">MOOCs suck, OCW's outdated, and microcredentials are predatory.</h4>
-
 <p align="center">
   We are making degree roadmaps comprised of 100% free, high quality online courses for self-study.
   <br>
@@ -94,7 +92,7 @@ npm run build
 npm run lint
 ```
 
-Once everything checks out locally, you can merge your pull request with the master to redeploy the live website. We can set up a test server later if we need to.
+Once everything checks out locally, you can merge your pull request with the master to redeploy the live website.
 
 
 ***
@@ -107,14 +105,13 @@ Once everything checks out locally, you can merge your pull request with the mas
 
 If you want to help contribute, thank you! Here are a few things that would really make an impact:
 
-1. Know of an excellent online course? Please share it!
-2. Have a good idea for how the project can be better? Please share it!
-3. You can code? Help code new features or clean up the codebase!
-4. You think this project is cool? Share it with friends!
-5. Do you think you can help in another way? Please share your idea!
+1. Share an excellent course you've taken.
+2. Share ideas for ways to make the project more useful.
+3. Add new features if you can code.
+4. Share the project with friends if you think its cool.
 
 
-Feel free to say hello and ask if you have any questions or comments. All feedback is welcome and encouraged. If you decide to help, check out [CONTRIBUTING.md](https://github.com/nietsymerej/collecobrary/blob/master/CONTRIBUTING.md) to see more details about the project.
+Feel free to say hello and ask if you have any questions or comments. All feedback is welcome and encouraged.
 
 
 ***
@@ -126,27 +123,7 @@ Feel free to say hello and ask if you have any questions or comments. All feedba
 
 <h2 id="about">💡 About</h2>
 
-The idea for this project spawned from my own frustration with the current online learning landscape. As [Reich and Ruipérez-Valiente](https://www.umt.edu/provost/docs/MOOC-pivot.pdf) point out, some online education platforms have massive audiences, which signals that there is quite a demand for online education. Yet, according to the article, user retention rates are ultra low.
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/78166995/136632980-cdc27747-8ab8-4fdb-9d21-62d2c7564406.PNG"></img>
-</div>
-
-According to my own research, this is because MOOCs are awful, as are many other resources. Detailing all of the ways in which every platform is lacking would take ages, but at a high level I have 3 criticisms:
-
-### Three problems this project aims to solve
-
-1. **Poor quality.** Many platforms have high variability when it comes to course quality, and many courses designed for online learners are significantly dumbed down.
-2. **Too many choices.** Some platforms provide thousands of courses. We don't need 100 different Calc I courses; the top three will suffice.
-3. **No structure or progression.** It is hard to know what you don't know, and many platforms don't lay out equivalencies, prerequisites, or roadmaps guiding students through broad subjects, making it difficult to come up with a study plan.
-
-While some existing products contain one or two of these elements, none has all three. The goal of this project is to create a free resource that satisfies this trilemma. I have made a start, but with a little help it could be so much better.
-
-***
-<br>
-
-
-
+The idea for this project spawned from my own frustration with the current online learning landscape. Finding quality courses is like searching for needles in haystacks. Hopefully this can make it a little bit easier to find a quality learning path.
 
 
 <h2 id="resources">🧭 Resources</h2>
@@ -156,17 +133,8 @@ If you are trying to find good courses, here are some places to look:
 - OCW - A lot of OCW is pretty old and incomplete, but [MIT](https://ocw.mit.edu/index.htm), [Yale](https://oyc.yale.edu/courses), and [UCI](http://ocw.uci.edu/) seem to have pretty good OCW still.
 - Youtube Channels - A lot of universities and professors post lectures on youtube. [Stanford](https://www.youtube.com/c/stanford/playlists) is a good example.
 - [Berkeley Webcasts](https://wiki.archiveteam.org/index.php/UC_Berkeley_Course_Captures) - Massive archive of lecture recordings from before 2017 when they stopped doing them.
-- University departments - Often you can find course websites online and some of them may have complete materials, such as [Kellis Lab at MIT](http://compbio.mit.edu/compbio.html). Additionally, sometimes professors will post their courses on their personal websites, particularly if the course is high quality.
+- University departments - Often you can find course websites online and some of them may have complete materials, such as [Kellis Lab at MIT](http://compbio.mit.edu/compbio.html). Additionally, sometimes professors will post their courses on their personal websites.
 
-Generally I have found that the MOOCs and other "learning platforms" have courses that are pretty poor quality, but this is just one man's opinion.
+Generally I have found that the MOOCs and other "learning platforms" have courses that are pretty poor quality, but that's just my opinion.
 
 Good luck!
-
-
-
-## Currently on my to-do list
-
-1. Refactor code
-2. Write tests
-3. Add new courses
-4. Get a proper domain name
