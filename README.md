@@ -11,16 +11,6 @@
 <h4 align="center">College | Course | Library</h4>
 
 <p align="center">
-  <a href="https://discord.gg/fbbYhvkaBx"><img alt="Discord" src="https://img.shields.io/discord/945465327494512701?logo=discord"></a>
-  <a href="https://twitter.com/intent/tweet?text=Make%20learning%20fun%20and%20easy&url=https://github.com/nietsymerej/collecobrary&hashtags=github,education,vuejs,webdev,developers">
-    <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social"></img>
-  </a>
-  <a href="https://github.com/nietsymerej/collecobrary">
-    <img src="https://img.shields.io/github/last-commit/nietsymerej/collecobrary"></img>
-  </a>
-</p>
-
-<p align="center">
   <a href="#learn">Learn</a> • 
   <a href="#quickstart">Quickstart</a> • 
   <a href="#contributing">Contribute</a> • 
@@ -29,9 +19,7 @@
 </p>
 
 <p align="center">
-  We are making degree roadmaps comprised of 100% free, high quality online courses for self-study.
-  <br>
-  It is very much in its infancy. As such, it could really use your help and input.
+  Degree roadmaps comprised of 100% free, high quality online courses for self-study.
 </p>
 
 
@@ -49,11 +37,6 @@
 
 If you like the project, giving a :star: on GitHub really helps.
 
-If you *really* like the project, share it on social media to spread the word!
-
-If you *love* the project, consider contributing to help make it better!
-
-If you *hate* the project, consider contributing to help make it not so bad.
 
 ***
 <br>
@@ -70,7 +53,7 @@ If it is your first time contributing, you might want to see [contributing](#con
 
 #### First, clone the repo and install dependencies:
 ```
-git clone https://github.com/nietsymerej/collecobrary.git
+git clone https://github.com/IlIllII/collecobrary.git
 cd collecobrary
 npm install
 ```
@@ -92,13 +75,10 @@ npm run build
 npm run lint
 ```
 
-Once everything checks out locally, you can merge your pull request with the master to redeploy the live website.
-
+Once everything checks out locally, merge your pull request with the master to redeploy the live website.
 
 ***
 <br>
-
-
 
 
 <h2 id="contributing">💪 Contributing</h2>
@@ -111,7 +91,7 @@ If you want to help contribute, thank you! Here are a few things that would real
 4. Share the project with friends if you think its cool.
 
 
-Feel free to say hello and ask if you have any questions or comments. All feedback is welcome and encouraged.
+Feel free to say hello and ask if you have any questions or comments. All feedback is welcome and appreciated.
 
 
 ***
@@ -119,11 +99,9 @@ Feel free to say hello and ask if you have any questions or comments. All feedba
 
 
 
-
-
 <h2 id="about">💡 About</h2>
 
-The idea for this project spawned from my own frustration with the current online learning landscape. Finding quality courses is like searching for needles in haystacks. Hopefully this can make it a little bit easier to find a quality learning path.
+The idea for this project spawned from my own frustration with the online learning landscape. Finding quality courses is like searching for needles in haystacks. Hopefully this can make it a little bit easier to find a quality learning path.
 
 
 <h2 id="resources">🧭 Resources</h2>
